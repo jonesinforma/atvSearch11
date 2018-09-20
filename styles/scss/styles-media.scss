@@ -1,0 +1,902 @@
+@mixin styling($searchHeight) {
+	.searchBanner {
+    	height: $searchHeight;
+    }
+    .main {
+        height: calc(100vh - #{$searchHeight} - 30px);
+    }
+}
+
+@media screen and (max-width: 1260px) {
+	#SEARCH.filtersShown .exploreTitleAndOptions .exploreOptions .optionCell {
+		margin-right: 8px;
+		.optionModule {
+			width: 94px;
+			height: 94px;
+		}
+	}
+}
+
+@media screen and (max-width: 1220px) {
+	
+	@include styling($searchHeight: 85px);
+	
+	.SEARCHUI {
+		padding: 0px 0 0 0;
+	}
+	#SEARCH {
+		.exploreContent {
+			.exploreTable { 
+				width: calc(100vw - 360px);
+			}
+		}
+		.filtersHidden .exploreContent {
+			.exploreTable { 
+				width: calc(100vw - 60px);
+			}
+		}
+	}
+}
+
+@media screen and (max-height: 800px) {
+	
+	@include styling($searchHeight: 62px);
+
+	.searchBanner {
+		margin-bottom: 0px;
+	}
+	
+	#TITLES {
+		&.PANEL.level0 {
+			padding-top: 20px;
+			&:before {
+				height: calc(100% - 40px);
+				top: 20px;
+			}
+			.SCROLLER {
+				margin-top: 20px;
+			}
+		}
+	}
+}
+
+
+	
+@media screen and (max-width: 1130px) {
+	
+	@include styling($searchHeight: 77px);
+
+	.searchBanner {
+		margin-bottom: 0px;
+		.searchBox {
+			width: 568px;
+		}
+	}
+	
+	#TITLES {
+		&.PANEL.level0 {
+			padding-top: 20px;
+			&:before {
+				height: calc(100% - 40px);
+				top: 20px;
+			}
+			.SCROLLER {
+				margin-top: 20px;
+			}
+		}
+	}
+	
+	
+	#SEARCH {
+		&.PANEL {
+			&.level0 {
+				padding: 20px 0 0 0;
+				&.multiRowTabs {
+					padding: 10px 0 0 0;
+					.title {
+						text-align: right;
+						    line-height: 13px;
+					}
+				}
+				.searchTABbox {
+					padding: 0 20px;
+				}
+			}
+			&.level1 {
+// 				margin: 65px 0px 0 0px;
+			}
+		}
+		.filtersHidden, .filtersShown {
+			.exploreContent {
+				.exploreTable {
+					width: calc(100vw - 20px);
+					padding: 25px 0 15px 0px;
+					h1 {
+						margin-left: 280px;
+					}
+					.exploreImageDiv {
+						width: 260px;
+						height: 260px;
+					}
+					.exploreOptions {
+						margin-top: 78px;
+					}
+				}
+			}
+		}
+		.searchGroups {
+			.PANEL.searchGroupPanel {
+				&:after {
+					height: 1px;
+				}
+				&.contracted {
+   					height: 92px;
+					margin: 10px 0 0 0;
+					&.exploring {
+						margin: 10px 0 20px 0;
+					}
+				}
+// 				&.contracted.exploring {
+// 					margin: 10px -2% 14px 0px;
+// 				}
+			}
+		}
+		.searchCell {
+			width: calc(25% - 25px);
+			margin: 0px 0 0px 20px;
+			padding: 0;
+			.module {
+				width: unset;
+				.moduleShadow {
+					display: flex;
+					.image {
+						flex: 0 0 70px;
+					}
+					> .image {
+						display: table-cell;
+						height: 70px;
+						font-size: 0;
+						border: none;
+						img {
+							width: 70px;
+						}
+					}
+				}
+				.titleBox {
+					flex: 0 1 200px;
+					width: 100%;
+					vertical-align: top;
+					border: none;
+					border-left: 1px solid lightgray;
+					padding-right: 20px;
+					&.active {
+						border-left-color: $exploreColor;
+					}
+					.titleHeading {
+						height: auto;
+						padding: 4px 12px 0px 12px;
+						margin: 0;
+						max-height: 3.6em;
+						line-height: 1.2em;
+						margin-top: .6em;
+					}
+				}
+			}
+			&.resultsCountBox {
+				display: none;
+			}
+		}
+		.moreOptionsButton {
+// 			height: 100%;
+
+			&.active {
+				background-position: 50% 38px;
+				height: 100%;
+				width: 18%;
+			}
+		}
+		.moreOptionsMenu.active .button {
+			display: inline-block;
+			height: 100%;
+			width: 27%;
+			text-align: center;
+			border-bottom: none;
+			border-right: 1px solid #735973;
+			font-size: 12px;
+			&.save {
+				width: 71px;
+			}
+			&.share, &.embed {
+				width: calc((100% - 18% - 71px) / 2);
+			}
+			.icon {
+				position: relative;
+				width: 100%;
+				height: 39px;
+				background-position: 50% 4px;
+			}
+			span {
+				position: relative;
+				height: 30%;
+				width: 100%;
+				left: 0;
+			}
+		}
+		&.TAB {
+			&.level1 {
+				&:first-of-type {}
+			}
+		}
+		.searchScroller {
+			width: 100%;
+			left: 0px;
+			z-index: 1;
+		}
+		.filtersShown .exploreTitleAndOptions .exploreOptions .optionCell {
+			margin-right: 16px;
+			.optionModule {
+				width: 120px;
+				height: 120px;
+			}
+		}
+		.filterBAR {
+			width: 33%;
+			left: 0;
+			margin: 0 0 0 20px;
+			padding: 20px 0 0 0;
+			transform: translate(-20px);
+			border-right: 1px solid lightgray;
+			box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.1);
+			z-index: 10;
+			.resultsTotal {
+				padding-left: 32px;
+			}
+			.filterScroller {
+// 				    border-left: 1px solid hsla(0, 0%, 90%, 1);
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1023px) {
+
+	@include styling($searchHeight: 32px);
+	
+	.searchBanner {
+		background: #8f8d9a;
+		&:before {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 4px;
+			top: 0;
+			background: -webkit-linear-gradient(top, hsla(253, 25%, 27%, 0.3) 0%, hsla(253, 50%, 27%, 0.1) 30%, rgba(0, 0, 0, 0) 100%);
+			left: 0;
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			bottom: 0;
+			background: -webkit-linear-gradient(bottom, hsla(253, 25%, 27%, 0.2) 0%, hsla(253, 50%, 27%, 0.1) 30%, rgba(0, 0, 0, 0) 100%);
+			left: 0;
+		}
+		input[type="text"] {
+			width: calc(100% - 85px);
+			background-color: rgba(0, 0, 0, 0);
+			padding: 6px 20px;
+		}
+		.searchBox {
+			width: 100%;
+			background-color: rgba(0,0,0,0);
+		}
+		.searchButton {
+			width: 45px;
+			height: 32px;
+			background-color: rgb(143, 141, 154);
+			background-color: rgba(0,0,0,0);
+		}
+	}
+
+	#TITLES {
+		&.TAB.level0:after {
+			content: '';
+			position: absolute;
+			width: 200vw;
+			height: 20px;
+			top: 44px;
+			left: -150%;
+//			z-index: 1;
+			background: $medium1;
+		}
+		&.PANEL {
+			&.level0 {
+				padding: 20px 0px 0px 0px;
+				overflow: auto;
+				&#TITLES {
+					&:before {
+						content: '';
+						position: absolute;
+						width: 100%;
+						height: 0px;
+						top: 45px;
+						left: 0;
+						z-index: 1000000;
+					}
+				}
+
+			}
+			.level1 {
+				&.TAB {
+					width: 100%;
+					margin: 0;
+					background-color: hsl(252, 14%, 31%);	
+					color: $medium1;
+					border-bottom: 1px solid hsla(268, 8%, 34%, 1);
+					&.clicked {
+						box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.35);
+					}
+				}
+				&.SCROLLER {
+					margin: 20px 0px 0px 0px;
+					padding: 0;
+					left: 0;
+					width: 100%;
+// 					overflow-x: hidden;
+					bottom: unset;
+					> .PANEL {
+						position: absolute;
+						background: none;
+						display: block;
+						overflow: hidden;
+						transform: translate(100%,0);
+						top: 0;
+						height: 0;
+						padding: 0 0 0 22px;
+						transition: padding 0.6s;
+						bottom: unset;
+						&:last-child {
+							min-height: 0;
+						}
+						&.padded {
+							padding: 15px 0 5px 22px;
+						}
+						&.shown {
+							position: relative;
+							transform: translate(0, 0);
+							&:after {
+								content: '';
+								position: absolute;
+								width: 100%;
+								height: 4px;
+								bottom: -1px;
+								background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0) 100%);
+								left: 0;
+							}
+						}
+						h2 {
+							display: none;
+						}
+					}
+				}
+			}
+			.level2 {
+				&.PANEL {
+					position: relative;
+					margin: 20px 20px 0 20px;
+					background: white;
+
+				}
+			}
+		}
+		.module {
+			width: 31%;
+			margin: 0px 2% 10px 0;
+			height: 70px;
+			background-color: white;
+			.image {
+				display: inline-block;
+				height: 70px;
+				vertical-align: middle;
+				margin: 0 0px 0 0;
+				width: 85px;
+				overflow: hidden;
+				border-width: 0 1px 0 0;
+				border-color: #d2d2d1;
+				img {
+					width: 87px;
+					height: auto;
+					border: none;
+				}
+			}
+			.title {
+				display: inline-block;
+				border: none;
+				height: auto;
+				white-space: normal;
+				margin: auto 0;
+				width: calc(100% - 86px);
+				vertical-align: middle;
+				padding: 8px 12px;
+				font-size: 13px;
+				background: none;
+			}
+		}
+		.AnatomyandPhysiology {
+			.module {
+				background-color: #f3ead6;
+				border-color: #dec5c5;
+				.image {
+					height: 70px;
+					border-right: 1px solid lightgray;
+					img {
+						height: calc(100% + 42px);
+						width: auto;
+						margin-left: -16px;
+					}
+				}
+			}
+		}
+	}
+	
+	#BROWSE.level0 {
+		&.PANEL {
+			width: auto;
+			.browseBackButton {
+				position: absolute;
+				width: 30px;
+				height: 30px;
+				background: url(../../images/TABCHEVRON.svg) 50% 50% no-repeat;
+				top: 13px;
+				left: 3px;
+				transform: rotate(180deg);
+				opacity: 0;
+				transition: opacity 0.35s, left 0.35s;
+				background-color: #dbd5d1;
+				border-radius: 15px;
+			}
+			&.width1, &.width2, &.width3, &.width4 {
+				width: auto;
+			}
+			&.width0 {
+				width: 33vw;
+			}
+			&.width1 {
+				width: 66vw;
+			}
+			&.width2 {
+				width: 100vw;
+			}
+			&.width3 {
+				width: 133.4vw;
+				left: -33.4vw;
+				.browseBackButton {
+					opacity: 0.8;
+					left: calc(33.4vw + 3px);
+				}
+			}
+		}
+		.TAB {
+			width: 33vw;
+		}
+	}
+}
+
+// END max-width: 1023px //
+
+
+@media screen and (max-width: 860px) {
+	#SEARCH {
+		.filtersHidden, .filtersShown {
+			.exploreContent {
+				.exploreTable {
+					.exploreOptions .optionCell .optionModule {
+//						width: 98px;
+//						height: 98px;
+					}
+				}
+			}
+		}
+		.searchCell {
+			width: calc(33.33% - 27px);
+			margin: 0px 0 0px 20px;
+		}
+	}
+}
+
+
+@media screen and (max-width: 860px) {
+	#SEARCH {
+		.filtersHidden, .filtersShown {
+			.exploreContent {
+				.exploreTable {
+					h1 {
+						margin-left: 250px;
+					}
+					.exploreImageDiv  {
+						width: 230px;
+						height: 230px;
+					}
+					.exploreOptions {
+						margin-top: 48px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	
+	.SEARCHUI {
+		padding: 0;
+	}
+
+	.TAB.level0.clicked {
+		border-top-color: #d2d1d0;
+	}
+	
+	#SEARCH {
+		.filterBAR {
+			width: 50%;
+		}
+		.filtersHidden, .filtersShown {
+			.modalExplore {
+				.exploreContent {
+					.exploreTable {
+						padding: 25px 0 0px 30px;
+						width: 100vw;
+						transition: unset;
+						.exploreImageDiv  {
+							width: 260px;
+							height: 260px;
+							max-width: 260px;
+							max-height: 260px;	
+						}
+					}
+				}
+			}
+		}
+	}
+	#BROWSE.level0 {
+		&.TAB.clicked {
+			border-top-color: #f4f3f2;
+		}
+		&.PANEL {
+			&.width0 {
+				width: 50vw;
+			}
+			&.width1 {
+				width: 100vw;
+			}
+			&.width2 {
+				width: 150vw;
+				left: -50vw;
+				.browseBackButton {
+					left: calc(50vw + 19px);
+					opacity: 0.8;
+				}
+			}
+			&.width3 {
+				width: 200vw;
+				left: -100vw;
+				.browseBackButton {
+					left: calc(100vw + 19px);
+					opacity: 0.8;
+				}
+			}
+		}
+		.TAB {
+			width: 50vw;
+		}
+	}
+}
+
+@media screen and (max-width: 680px) {
+	#TITLES {
+		&.PANEL {
+			.level1.SCROLLER {
+				> .PANEL {
+					padding: 0 0 0 10px;
+					&.padded {
+						padding: 15px 0 5px 10px;
+					}
+				}
+			}
+		}
+		.module {
+			width: 48%;
+		}
+	}
+	#SEARCH {
+		.searchCell {
+			width: calc(50% - 30px);
+			margin: 0px 0 0px 20px;
+		}
+	}
+}
+
+@media screen and (max-width: 580px) {
+	#SEARCH {
+		.filterBAR {
+			width: 66.7%;
+		}
+	}
+	#BROWSE.level0 {
+		&.PANEL {
+			bottom: 0;
+			&.width0 {
+				width: 100vw;
+			}
+			&.width1 {
+				width: 200vw;
+				left: -100vw;
+				.browseBackButton {
+					left: calc(100vw + 16px);
+					opacity: 0.8;
+				}
+			}
+			&.width2 {
+				width: 300vw;
+				left: -200vw;
+				.browseBackButton {
+					left: calc(200vw + 16px);
+					opacity: 0.8;
+				}
+			}
+			&.width3 {
+				width: 400vw;
+				left: -300vw;
+				.browseBackButton {
+					left: calc(300vw + 16px);
+					opacity: 0.8;
+				}
+			}
+		}
+		.TAB {
+			width: 100vw;
+			padding: 0 0px 0 6px;
+			&:after {
+				opacity: 0.8;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 520px) {
+	#SEARCH {
+		.searchGroups .TAB {
+			> div {
+				padding-left: 10px;
+			}
+			.resultsTotal {
+				padding-left: 15px;
+				padding-right: 0px;
+			}
+			.showMore {
+				padding-left: 0;
+			}
+		}
+		.filtersHidden, .filtersShown {
+			.modalExplore {
+				.exploreContent {
+					.exploreTable {
+						overflow: auto;
+						padding: 10px 20px 0px 20px;
+    					width: 100vw;
+    					height: 100%;
+						h1 {
+							font-size: 20px;
+							flex-grow: 0;
+							margin: 5px 20px 20px 0;
+						}
+						.exploreImageDiv {
+							max-height: 260px;
+							width: auto;
+							margin-right: 0;
+							overflow: auto;
+							flex: 1 0 100px;
+							background: none;
+							height: auto;
+							background: none;
+							img {
+								height: 100%;
+								width: auto;
+								background-color: white;
+							}
+						}
+						.exploreOptions {
+							overflow: hidden;
+							flex: 0 0 288px;
+							display: block;
+							margin-top: 15px;
+							width: 100%;
+							height: auto;
+							&.expanded {
+								height: unset;
+								width: 100%;
+							}
+							.optionCell {
+								margin-bottom: 10px;
+								.optionCellTitle {
+									margin-bottom: 4px;
+									> span {
+										display: inline;
+										margin-left: 6px;
+									}
+								}
+//								flex-basis: unset;
+								width: 100%;
+								.optionModule {
+									width: 100%;
+									height: auto;
+									.tile {
+										display: flex;
+										flex-direction: row;
+										align-items: center;
+// 										
+										.image {
+											width: 57px;
+											height: 48px;
+											border-right: 1px solid hsla(0, 0%, 85%, 1);
+										}
+										.title {
+											font-size: 14px;
+											height: auto;
+											padding: 0 13px;
+										}
+									}
+									&.hap {
+										.tile {
+											background-color: #ebe7d8;
+										}
+										.image {
+											width: 57px;
+											height: 48px;
+											border-right: 1px solid hsla(0, 0%, 90%, 1);
+											img {
+												width: 80px;
+												height: auto;
+												clip-path: inset(2px 0 29px 0);
+												margin: 1px -9px;
+											}
+										}
+									}
+								}
+								&.other {
+									height: 45px;
+									margin: 0;
+									padding: 0;
+									text-align: right;
+									margin-bottom: 8px;
+									.optionModule {
+										line-height: 45px;
+										.optionTitle {
+											margin-right: 47px;
+											&:after {
+												right: -45px;
+												bottom: 4px;
+												left: unset;
+											}
+										}
+									}
+								}
+							}
+						}
+						&.showingMoreOptions {
+							display: block;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 440px) {
+	#TITLES {
+		&.PANEL {
+			.level1.SCROLLER {
+				> .PANEL {
+					padding: 0;
+					&.padded {
+						padding: 0;
+					}
+				}
+			}
+		}
+		.module {
+			width: 100%;
+			margin: 0;
+			height: 48px;
+			border-width: 1px 0 0 0;
+			border-color: hsla(0, 0%, 88%, 1);
+			overflow: visible;
+			&:first-of-type {
+				border-top: none;
+				&:after {
+					content: '';
+					position: absolute;
+					width: 100%;
+					height: 10px;
+					left: 0;
+					top: 0;
+					background: -webkit-linear-gradient(top, hsla(253, 25%, 27%, 0.3) 0%, hsla(253, 50%, 27%, 0.1) 30%, rgba(0, 0, 0, 0) 100%);
+					z-index: 1;
+				}
+			}
+			&:last-of-type {
+				border-bottom: none;
+			}
+			&:before {
+				content: '';
+				position: absolute;
+				width: 57px;
+				height: 1px;
+				background: hsla(0, 0%, 78%, 1);
+				top: -1px;
+				z-index: 1;
+			}
+			.image {
+				height: 48px;
+				width: 57px;
+				position: relative;
+				img {
+					width: 60px;
+				}
+			}
+			.title {
+				font-size: 14px;
+			}
+		}
+		#AnatomyandPhysiology {
+			.module {
+				.image {
+					height: 48px;
+				}
+				.title {
+					width: calc(100% - 60px);
+				}
+			}
+		}
+	}
+	#SEARCH {
+		.searchGroups {
+			.PANEL.searchGroupPanel {
+			    margin: 10px 0% 14px 0px;
+			    &:after {
+			    	    width: calc(100% - 30px);
+			    }
+			    &.contracted {
+			    	margin: 10px 0% 0px 0px;
+			    	padding: 0;
+			    	&:last-of-type:after {
+			    		width: 100%;
+			    	}
+			    }
+			    .hideMoreResults {
+			    	right: 0;
+			    }
+			}
+		}
+		.searchCell {
+			display: inline-block;
+			width: calc(100% - 40px);
+			margin: 0px 0 0px 20px;
+		}
+		.filterBAR {
+			width: 100%;
+		}
+		&.filtersHidden .filterBAR {
+			left: -101%;
+		}
+	}
+	.TAB.level0 {
+		font-size: 11px;
+	}
+}
+
+

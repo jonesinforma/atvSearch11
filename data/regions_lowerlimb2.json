@@ -1,0 +1,148 @@
+{
+	"content": {
+		"Head and Neck": {
+			"content": {
+				"Cranium": {
+					"content": {
+						"Cranium view 1": {
+							"content": {},
+							"code": "Cranium_code_1"
+						},
+						"Cranium view 2": {
+							"content": {},
+							"code": "Cranium_code_2"
+						}
+					}
+				},
+				"Ear": {
+					"content": {
+						"Ear view 1": {
+							"content": {},
+							"code": "Ear_code_1"
+						},
+						"Ear view 2": {
+							"content": {},
+							"code": "Ear_code_2"
+						}
+					}
+				},
+				"Orbit": {
+					"content": {
+						"Orbit view 1": {
+							"content": {},
+							"code": "Orbit_code_1"
+						},
+						"Orbit view 2": {
+							"content": {},
+							"code": "Orbit_code_2"
+						}
+					}
+				},
+				"Infratemporal fossa": {
+					"content": {
+						"Infratemporal fossa view 1": {
+							"content": {},
+							"code": "Infratemporal_fossa_code_1"
+						},
+						"Infratemporal fossa view 2": {
+							"content": {},
+							"code": "Infratemporal_fossa_code_2"
+						}
+					}
+				}
+			}
+		},
+		"Lower limb": {
+			"content": {
+				"Ankle": {
+					"content": {
+						"Ankle": {
+							"content": {},
+							"code": "Gr_LL__Ankle"
+						},
+						"Ankle joint": {
+							"content": {},
+							"code": "Gr_LL__Ankle__joint_Ankle"
+						}
+					}
+				},
+				"Hip and thigh": {
+					"content": {
+						"Posterior thigh": {
+							"content": {},
+							"code": "Gr_LL__Hip_thigh__reg_Pos"
+						},
+						"Gluteal region": {
+							"content": {},
+							"code": "Gr_LL__Hip_thigh__reg_Gluteal"
+						},
+						"Medial thigh": {
+							"content": {},
+							"code": "Gr_LL__Hip_thigh__reg_Med"
+						},
+						"Anterior thigh": {
+							"content": {},
+							"code": "Gr_LL__Hip_thigh__reg_Ant"
+						},
+						"Hip joint": {
+							"content": {},
+							"code": "Gr_LL__Hip_thigh__joint_Hip"
+						}
+					}
+				},
+				"Knee": {
+					"content": {
+						"Popliteal region": {
+							"content": {},
+							"code": "Gr_LL__Knee__reg_Popliteal"
+						},
+						"Patella region": {
+							"content": {},
+							"code": "Gr_LL__Knee__reg_Patella"
+						},
+						"Knee joint": {
+							"content": {},
+							"code": "Gr_LL__Knee__joint_Knee"
+						}
+					}
+				},
+				"Foot": {
+					"content": {
+						"Heel region": {
+							"content": {},
+							"code": "Gr_LL__Foot__reg_Heel"
+						},
+						"Toes": {
+							"content": {},
+							"code": "Gr_LL__Foot__Toes"
+						},
+						"Sole": {
+							"content": {},
+							"code": "Gr_LL__Foot__Sole"
+						},
+						"Dorsal region": {
+							"content": {},
+							"code": "Gr_LL__Foot__reg_Dorsal"
+						}
+					}
+				},
+				"Leg": {
+					"content": {
+						"Lateral compartment": {
+							"content": {},
+							"code": "Gr_LL__Leg__comp_Lat"
+						},
+						"Anterior compartment": {
+							"content": {},
+							"code": "Gr_LL__Leg__comp_Ant"
+						},
+						"Posterior compartment": {
+							"content": {},
+							"code": "Gr_LL__Leg__comp_Pos"
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<title>LL atvSearch 11</title>
+
+	<link rel="stylesheet" href='styles/css/master.css' />
+	<script src="js/external/jquery-2.1.0.min.js"></script>
+	<script src="js/top-bar.js"></script>
+	<script src="js/init.js"></script>
+	<script src="js/tabsAndPanels.js"></script>
+	<script src="js/makeTitles.js"></script>
+	<script src="js/tabsClicked.js"></script>
+	<script src="js/searchSubmit.js"></script>
+	<script src="js/filters.js"></script>
+	<script src="js/browseClicked.js"></script>
+	<script src="js/cookieCrumb.js"></script>
+	<script src="js/searchClicks.js"></script>
+	<script src="js/titlesScroll.js"></script>
+	<script src="js/updatesAndPositioning.js"></script>
+	<script src="js/external/lodash.js"></script>
+	<script src="js/external/resize-end/resize-end.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div id="iribbon-container">
+		<div id="iribbon-detail" class="ribbon-hide">
+			<div id="iribbon-left">
+				<p>Primal Pictures is part of the Business Intelligence Division of Informa PLC</p>
+				<ul>
+					<li><a href="http://informa.com/">Informa PLC</a></li>
+					<li><a href="http://informa.com/About-Us/">About us</a></li>
+					<li><a href="http://informa.com/Investors/">Investor relations</a></li>
+					<li><a href="http://informa.com/Talent/">Talent</a></li>
+				</ul>
+			</div>
+			<div id="iribbon-right">
+				<p>This site is operated by a business or businesses owned by Informa PLC and all copyright resides with them. Informa PLC's registered office is 5 Howick Place, London SW1P 1WG. Registered in England and Wales. Number 8860726.</p>
+			</div>
+		</div>
+	</div>
+	
+	<div id='headerBar' class='r1'>
+		<div class="wrapper">
+			<div id="header">
+				<h5>
+					<a href="/" class="atv-logo">
+						Anatomy.tv 3D Interactive Human Anatomy Powered by Primal Pictures
+					</a>
+					<a href="https://primalpictures.com/" target="_blank" class="poweredBy-logo">
+						Primal Pictures
+					</a>
+				</h5>
+			</div>
+		</div>
+		<div class="wrapper menu">
+			<div class="topMenu">
+				<input class="menu-btn" type="checkbox" id="menu-btn" />
+				<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+				<ul class="menu">
+					<li data-page="home"><a href="new_home.aspx">Home</a></li>
+					<li><a href="#about">Help</a></li>
+					<li><a href="#careers">Resource center</a></li>
+					<li><a href="#contact">Faculty area</a></li>
+					<li><a href="#about">FAQs</a></li>
+					<li><a href="#careers">Contact us</a></li>
+					<li><a href="#contact">Shop</a></li>
+					<li><a href="#contact">Free trials</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="list"></div>
+
+
+	<div class="SEARCHUI">
+		<div class="searchBanner">
+			<div class="searchBox">
+				<input id="searchText" class="searchText" type="text" placeholder="Search" onsubmit="searchSubmitted()" required="required">
+				<div class="searchClear"></div>
+				<div class="searchButton"></div>
+			</div>
+		</div>
+		<div class="main PANEL shown" id="main">
+		</div>
+	</div>
+	<div class='TEMPLATES'>
+
+		<!-- GENERIC TAB ------------------------------------>
+		<div class="TAB" id="" onclick="f.tabClicked(this)">
+			<div>
+				TITLE
+			</div>
+		</div>
+
+
+		<!-- SEARCH RESULTS TAB ------------------------------>
+		<div class="level1 TAB" id="SEARCH" onclick="f.tabClicked(this)">
+			<div class="title">
+			</div>
+			<div class="closeCross" onclick="closeSearch(this)">
+			</div>
+		</div>
+
+
+		<!-- SEARCH RESULTS PANEL ---------------------------->
+		<div class="level1 PANEL filtersShown" id="SEARCH">
+			<div class="hideFilterBarButton displayNone" onclick="f.showHideFilterBar(this)"></div>
+			<div class="filterBAR displayNone">
+				<div class="filterTAB resultsTotal"></div>
+				<div class="filterScroller"></div>
+			</div>
+			<div class="searchScroller">
+				<div class="searchGroups">
+				</div>
+			</div>
+		</div>
+
+		<!-- SEARCH GOUP TAB ------------------------------------>
+		<div class="level2 TAB searchGroupTab contracted">
+			<div class="searchGroupTitle" onclick="f.searchClicks(this)">
+			</div>
+
+			<div class="showMore" onclick="f.searchClicks(this)">
+				<div></div>
+				<div class="showMoreSquare">
+					<div class="showMoreArrow">
+					</div>
+				</div>
+			</div>
+			<div class="resultsTotal">
+				<span>18</span> results
+			</div>
+			<!--
+			<div class="hideGroup">
+			</div>
+-->
+		</div>
+
+
+		<!-- SEARCH GROUP PANEL ------------------------------------>
+		<div class="level2 PANEL searchGroupPanel contracted">
+			<div class="heightGauge">
+				<!--				<div class="resultsCount"></div>-->
+			</div>
+			<div class="hideMoreResults hidden" onclick="f.searchClicks(this)">
+				<div class="square">
+				</div>
+				<div class="moreCellsNumber">
+				</div>
+				<div class="chevron">
+				</div>
+			</div>
+		</div>
+
+
+		<!-- SEARCH CELL ------------------------------------->
+		<div class="searchCell">
+			<div class="type">
+				<h2>TYPE-HERE</h2>
+			</div>
+			<div class="module">
+				<div class="moduleShadow">
+					<div class="image">
+						<img src="images/IMAGE-SOURCE.png" />
+					</div>
+					<div class="titleBox" onclick="f.searchClicks(this)">
+						<div class="titleHeading">TITLE-HERE</div>
+					</div>
+					<div class="moreOptionsButton" onclick="showMoreOptions(this)">
+					</div>
+					<div class="moreOptionsMenu">
+						<div class="button save">
+							<div class="icon"></div>
+							<span>Save</span>
+						</div>
+						<div class="button share">
+							<div class="icon"></div>
+							<span>Share</span>
+						</div>
+						<div class="button embed">
+							<div class="icon"></div>
+							<span>Embed</span>
+						</div>
+					</div>
+				</div>
+				<div class="exploreContent">
+					<div class="exploreTable">
+						<h1>LARGETITLE-HERE</h1>
+						<h2>Best viewed in the following products</h2>
+						<div class="exploreImageDiv">
+							<img src="images/LARGEIMAGE-SOURCE.png" />
+						</div>
+						<div class="exploreOptions">
+
+							<div class="optionCell best view">
+								<div class="optionCellTitle">
+									View in
+									<span>
+										3D Atlas
+									</span>
+								</div>
+								<div class="optionModule">
+									<div class="tile" data-titleid="68" data-name="3D Atlas: Head and Neck">
+										<div class="image">
+											<img src="images\homepageimages\HAR_Head-01.png">
+										</div>
+										<div class="title">
+											Head and Neck
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="optionCell best explore">
+								<div class="optionCellTitle">
+									Explore in
+									<span>
+										3D Real-time
+									</span>
+								</div>
+								<div class="optionModule">
+									<div class="tile" data-name="RT: Head and Neck">
+										<div class="image">
+											<img src="images\homepageimages\3D_Head-01.png">
+										</div>
+										<div class="title">
+											Head and Neck
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="optionCell best learn">
+								<div class="optionCellTitle">
+									Learn in
+									<span>
+										Anatomy<span> + </span>Physiology
+									</span>
+								</div>
+								<div class="optionModule hap">
+									<div class="tile" data-name="Hap: Digestive">
+										<div class="image">
+											<img src="images\homepageimages\aandpimages\digestive_system.png">
+										</div>
+										<div class="title">
+											Digestive System
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="optionCell other">
+								<div class="optionModule">
+									<div class='optionTitle' onclick="f.searchClicks(this)">
+										Select in another product
+									</div>
+								</div>
+							</div>
+							
+							<div class="optionCell">
+								<div class="optionCellTitle">
+									&nbsp;
+									<span>
+										Other product
+									</span>
+								</div>
+								<div class="optionModule hap">
+									<div class="tile" data-name="Hap: Digestive">
+										<div class="image">
+											<img src="">
+										</div>
+										<div class="title">
+											&nbsp;
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="optionCell">
+								<div class="optionCellTitle">
+									&nbsp;
+									<span>
+										Other product
+									</span>
+								</div>
+								<div class="optionModule hap">
+									<div class="tile" data-name="Hap: Digestive">
+										<div class="image">
+											<img src="">
+										</div>
+										<div class="title">
+											&nbsp;
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="optionCell">
+								<div class="optionCellTitle">
+									&nbsp;
+									<span>
+										Other product
+									</span>
+								</div>
+								<div class="optionModule hap">
+									<div class="tile" data-name="Hap: Digestive">
+										<div class="image">
+											<img src="">
+										</div>
+										<div class="title">
+											&nbsp;
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="optionCell">
+								<div class="optionCellTitle">
+									&nbsp;
+									<span>
+										Other product
+									</span>
+								</div>
+								<div class="optionModule hap">
+									<div class="tile" data-name="Hap: Digestive">
+										<div class="image">
+											<img src="">
+										</div>
+										<div class="title">
+											&nbsp;
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="optionCell">
+								<div class="optionCellTitle">
+									&nbsp;
+									<span>
+										Other product
+									</span>
+								</div>
+								<div class="optionModule hap">
+									<div class="tile" data-name="Hap: Digestive">
+										<div class="image">
+											<img src="">
+										</div>
+										<div class="title">
+											&nbsp;
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="optionCell">
+								<div class="optionCellTitle">
+									&nbsp;
+									<span>
+										Other product
+									</span>
+								</div>
+								<div class="optionModule hap">
+									<div class="tile" data-name="Hap: Digestive">
+										<div class="image">
+											<img src="">
+										</div>
+										<div class="title">
+											&nbsp;
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="optionCell">
+								<div class="optionCellTitle">
+									&nbsp;
+									<span>
+										Other product
+									</span>
+								</div>
+								<div class="optionModule hap">
+									<div class="tile" data-name="Hap: Digestive">
+										<div class="image">
+											<img src="">
+										</div>
+										<div class="title">
+											&nbsp;
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="optionCell">
+								<div class="optionCellTitle">
+									&nbsp;
+									<span>
+										Other product
+									</span>
+								</div>
+								<div class="optionModule hap">
+									<div class="tile" data-name="Hap: Digestive">
+										<div class="image">
+											<img src="">
+										</div>
+										<div class="title">
+											&nbsp;
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="optionCell">
+								<div class="optionCellTitle">
+									&nbsp;
+									<span>
+										Other product
+									</span>
+								</div>
+								<div class="optionModule hap">
+									<div class="tile" data-name="Hap: Digestive">
+										<div class="image">
+											<img src="">
+										</div>
+										<div class="title">
+											&nbsp;
+										</div>
+									</div>
+								</div>
+							</div>
+
+							
+						</div>
+						
+
+					</div>
+					<div class="extendedContent"></div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- FILTER TAB ------------------------------------->
+		<div class="filterTAB" onclick="f.filterTABClicked(this)" data-filterkey="type">
+			Filter by
+		</div>
+
+		<!-- FILTER PANEL ------------------------------------->
+		<div class="filterPANEL">
+			<div class="filterTable"></div>
+		</div>
+
+		<!-- FILTER ROW ------------------------------------->
+		<div class="filterRow active" onclick="f.filterRowClicked">
+			<div class="cell"></div>
+		</div>
+
+	</div>
+</body>
+
+</html>

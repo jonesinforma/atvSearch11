@@ -1,0 +1,37 @@
+$radiusSmall: 0px;
+$radiusLarge: 0px;
+$searchHeight: 100px;
+$clickedTabColor: white;
+$clickedTabBackground: hsla(224, 46%, 63%, 1);
+$exploreColor: hsl(244, 25%, 60%);
+$light0: hsl(0,0,96%);
+$light1: hsla(0, 19%, 92%, 1);
+$light2: #efece7;
+$medium1: hsl(25, 3%, 82%);
+$medium2: hsla(32, 7%, 60%, 1);
+$medium3: hsl(255, 3%, 60%);
+$dark1: hsla(252, 15%, 27%, 1);
+$dark2: hsl(215, 19%, 19%);
+$noticeMe: #c88551;
+$browseBg: hsl(22, 11%, 95%);
+$browseActive: hsl(0, 15%, 90%);
+$browseText: hsla(267, 8%, 45%, 1);
+$textOnWhite: hsla(267, 8%, 50%, 1);
+
+@import 'styles';
+@import 'styles-media';
+@import 'atv-styles';
+@import 'atv-styles-media';
+@import 'top-bar';
+
+::-webkit-input-placeholder { opacity: 1; -webkit-transition: opacity .25s; transition: opacity .25s; }  /* Chrome <=56, Safari < 10 */
+:-moz-placeholder { opacity: 1; -moz-transition: opacity .25s; transition: opacity .25s; } /* FF 4-18 */
+::-moz-placeholder { opacity: 1; -moz-transition: opacity .25s; transition: opacity .25s; } /* FF 19-51 */
+:-ms-input-placeholder { opacity: 1; -ms-transition: opacity .25s; transition: opacity .25s; } /* IE 10+ */
+::placeholder { opacity: 1; transition: opacity .25s; } /* Modern Browsers */
+
+*:focus::-webkit-input-placeholder { opacity: 0; } /* Chrome <=56, Safari < 10 */
+*:focus:-moz-placeholder { opacity: 0; } /* FF 4-18 */
+*:focus::-moz-placeholder { opacity: 0; } /* FF 19-50 */
+*:focus:-ms-input-placeholder { opacity: 0; } /* IE 10+ */
+*:focus::placeholder { opacity: 0; } 

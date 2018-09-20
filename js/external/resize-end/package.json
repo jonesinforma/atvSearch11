@@ -1,0 +1,26 @@
+{
+  "name": "resize-end",
+  "version": "1.1.0",
+  "description": "Fire a resizeend event when a user finishes resizing the viewport.",
+  "author": "Matt Perry <admin@redshiftjs.com>",
+  "homepage": "http://redshiftjs.com",
+  "main": "src/resize-end.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InventingWithMonster/resize-end"
+  },
+  "bugs": {
+    "url": "https://github.com/InventingWithMonster/resize-end/issues"
+  },
+  "keywords": [
+    "viewport"
+  ],
+  "analyze": true,
+  "license": "MIT",
+  "scripts": {
+    "compile": "webpack src/resize-end.js resize-end.min.js -p"
+  },
+  "devDependencies": {
+    "webpack": "1.7.2"
+  }
+}

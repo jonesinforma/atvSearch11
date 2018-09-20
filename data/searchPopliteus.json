@@ -1,0 +1,119 @@
+{
+	"Movie": {
+		"Popliteus: internal rotation of the leg at the knee and external rotation of the thigh": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_7895301_-1_2.jpg",
+				"mediaID": 7895301,
+				"structureID": null,
+				"productID": 420,
+				"modelID": 0
+			}
+		]
+	},
+	"Structure": {
+		"Attachments of popliteus": [
+			{
+				"regions": [],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_4507_1.jpg",
+				"mediaID": 7896576,
+				"structureID": 4507,
+				"productID": 421,
+				"modelID": 39337
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_4507_1.jpg",
+				"mediaID": 7890143,
+				"structureID": 4507,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4507_1.jpg",
+				"mediaID": 9062264,
+				"structureID": 4507,
+				"productID": 444,
+				"modelID": 43006
+			}
+		],
+		"Popliteus": [
+			{
+				"regions": [],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1428_1.jpg",
+				"mediaID": 7896584,
+				"structureID": 1428,
+				"productID": 421,
+				"modelID": 39337
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1428_1.jpg",
+				"mediaID": 7890098,
+				"structureID": 1428,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1428_1.jpg",
+				"mediaID": 9063871,
+				"structureID": 1428,
+				"productID": 444,
+				"modelID": 43018
+			}
+		],
+		"Bursa between lateral collateral ligament and popliteus tendon": [
+			{
+				"regions": [
+					4,
+					10,
+					8
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_3812_1.jpg",
+				"mediaID": 7891340,
+				"structureID": 3812,
+				"productID": 420,
+				"modelID": 39303
+			}
+		],
+		"Bursa between popliteus tendon and lateral femoral condyle": [
+			{
+				"regions": [
+					10,
+					8
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_3814_1.jpg",
+				"mediaID": 7891148,
+				"structureID": 3814,
+				"productID": 420,
+				"modelID": 39303
+			}
+		],
+		"Popliteus fascia": [
+			{
+				"regions": [
+					11,
+					15,
+					8
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_2330_1.jpg",
+				"mediaID": 7890101,
+				"structureID": 2330,
+				"productID": 420,
+				"modelID": 39302
+			}
+		]
+	}
+}

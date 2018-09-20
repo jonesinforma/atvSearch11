@@ -1,0 +1,2829 @@
+{
+	"Movie": {
+		"Stabilizing role of the anterior cruciate ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_7895292_-1_2.jpg",
+				"mediaID": 7895292,
+				"structureID": null,
+				"productID": 420,
+				"modelID": 0
+			}
+		],
+		"Medial Collateral Ligament: motion in flexion-extension": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_7895286_-1_2.jpg",
+				"mediaID": 7895286,
+				"structureID": null,
+				"productID": 420,
+				"modelID": 0
+			}
+		],
+		"Stabilizing role of the posterior cruciate ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_7895293_-1_2.jpg",
+				"mediaID": 7895293,
+				"structureID": null,
+				"productID": 420,
+				"modelID": 0
+			}
+		],
+		"Lateral Collateral Ligament: motion in flexion-extension": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_7895285_-1_2.jpg",
+				"mediaID": 7895285,
+				"structureID": null,
+				"productID": 420,
+				"modelID": 0
+			}
+		]
+	},
+	"Structure": {
+		"Medial collateral ligament (Syn. tibial collateral ligament)": [
+			{
+				"regions": [
+					8
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1321_1.jpg",
+				"mediaID": 7896395,
+				"structureID": 1321,
+				"productID": 421,
+				"modelID": 39337
+			},
+			{
+				"regions": [
+					8
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1321_1.jpg",
+				"mediaID": 7896395,
+				"structureID": 1321,
+				"productID": 421,
+				"modelID": 39337
+			},
+			{
+				"regions": [
+					8
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1321_1.jpg",
+				"mediaID": 7889827,
+				"structureID": 1321,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [
+					8
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1321_1.jpg",
+				"mediaID": 7889827,
+				"structureID": 1321,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [
+					8
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1321_1.jpg",
+				"mediaID": 9061933,
+				"structureID": 1321,
+				"productID": 444,
+				"modelID": 43006
+			},
+			{
+				"regions": [
+					8
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1321_1.jpg",
+				"mediaID": 9061933,
+				"structureID": 1321,
+				"productID": 444,
+				"modelID": 43006
+			}
+		],
+		"Deep posterior (dorsal) sacrococcygeal ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1385_1.jpg",
+				"mediaID": 7905541,
+				"structureID": 1385,
+				"productID": 421,
+				"modelID": 39377
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1385_1.jpg",
+				"mediaID": 7893952,
+				"structureID": 1385,
+				"productID": 420,
+				"modelID": 39323
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1385_1.jpg",
+				"mediaID": 9060357,
+				"structureID": 1385,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Plantar intercuneiform ligaments": [
+			{
+				"regions": [
+					22
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1208_1.jpg",
+				"mediaID": 7901791,
+				"structureID": 1208,
+				"productID": 421,
+				"modelID": 39348
+			}
+		],
+		"Iliolumbar ligament: lumbosacral band": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1366_1.jpg",
+				"mediaID": 7904482,
+				"structureID": 1366,
+				"productID": 421,
+				"modelID": 39369
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1366_1.jpg",
+				"mediaID": 7892893,
+				"structureID": 1366,
+				"productID": 420,
+				"modelID": 39315
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1366_1.jpg",
+				"mediaID": 9060037,
+				"structureID": 1366,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Lateral metatarsosesamoid ligament": [
+			{
+				"regions": [
+					22,
+					23
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1195_1.jpg",
+				"mediaID": 7902708,
+				"structureID": 1195,
+				"productID": 421,
+				"modelID": 39349
+			}
+		],
+		"Anterior longitudinal ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1365_1.jpg",
+				"mediaID": 9061032,
+				"structureID": 1365,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Dorsal calcaneocuboid ligament": [
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1185_1.jpg",
+				"mediaID": 7901629,
+				"structureID": 1185,
+				"productID": 421,
+				"modelID": 39348
+			}
+		],
+		"Attachments of medial collateral ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_4359_1.jpg",
+				"mediaID": 7890818,
+				"structureID": 4359,
+				"productID": 420,
+				"modelID": 39303
+			}
+		],
+		"Ligamentum teres (Syn. femoral head ligament)": [
+			{
+				"regions": [
+					1,
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1315_1.jpg",
+				"mediaID": 9060843,
+				"structureID": 1315,
+				"productID": 444,
+				"modelID": 43003
+			},
+			{
+				"regions": [
+					1,
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1315_1.jpg",
+				"mediaID": 9060843,
+				"structureID": 1315,
+				"productID": 444,
+				"modelID": 43003
+			}
+		],
+		"Attachments of pectineal ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4256_1.jpg",
+				"mediaID": 9060034,
+				"structureID": 4256,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Pubofemoral ligament": [
+			{
+				"regions": [
+					1,
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1325_1.jpg",
+				"mediaID": 9060930,
+				"structureID": 1325,
+				"productID": 444,
+				"modelID": 43003
+			}
+		],
+		"Plantar plates (plantar ligaments): metatarsophalangeal joints": [
+			{
+				"regions": [
+					22
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1202_1.jpg",
+				"mediaID": 7902846,
+				"structureID": 1202,
+				"productID": 421,
+				"modelID": 39349
+			}
+		],
+		"Ligamenta flava": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1363_1.jpg",
+				"mediaID": 9061193,
+				"structureID": 1363,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Transverse tibiofibular ligament": [
+			{
+				"regions": [
+					16,
+					21,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1217_1.jpg",
+				"mediaID": 7898798,
+				"structureID": 1217,
+				"productID": 421,
+				"modelID": 39344
+			}
+		],
+		"Anterior tibiofibular ligament (Syn. anterior inferior tibiofibular ligament)": [
+			{
+				"regions": [
+					12,
+					16,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1174_1.jpg",
+				"mediaID": 7899122,
+				"structureID": 1174,
+				"productID": 421,
+				"modelID": 39344
+			},
+			{
+				"regions": [
+					12,
+					16,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1174_1.jpg",
+				"mediaID": 7899122,
+				"structureID": 1174,
+				"productID": 421,
+				"modelID": 39344
+			},
+			{
+				"regions": [
+					12,
+					16,
+					18
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1174_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1174,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					12,
+					16,
+					18
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1174_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1174,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					12,
+					16,
+					18
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1174_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1174,
+				"productID": 444,
+				"modelID": 43008
+			},
+			{
+				"regions": [
+					12,
+					16,
+					18
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1174_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1174,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Attachments of plantar calcaneocuboid ligament (Syn. short plantar ligament)": [
+			{
+				"regions": [],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_4580_1.jpg",
+				"mediaID": 7900842,
+				"structureID": 4580,
+				"productID": 421,
+				"modelID": 39347
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_4580_1.jpg",
+				"mediaID": 7900842,
+				"structureID": 4580,
+				"productID": 421,
+				"modelID": 39347
+			}
+		],
+		"Attachments of long plantar ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_4578_1.jpg",
+				"mediaID": 7900842,
+				"structureID": 4578,
+				"productID": 421,
+				"modelID": 39347
+			}
+		],
+		"Lateral collateral ligament (ankle joint): posterior talofibular part": [
+			{
+				"regions": [
+					16,
+					21,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1212_1.jpg",
+				"mediaID": 7898798,
+				"structureID": 1212,
+				"productID": 421,
+				"modelID": 39344
+			}
+		],
+		"Transverse (meniscal) ligament": [
+			{
+				"regions": [
+					4,
+					10,
+					8
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1333_1.jpg",
+				"mediaID": 7891470,
+				"structureID": 1333,
+				"productID": 420,
+				"modelID": 39303
+			}
+		],
+		"Intertransverse ligaments": [
+			{
+				"regions": [],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1361_1.jpg",
+				"mediaID": 7904626,
+				"structureID": 1361,
+				"productID": 421,
+				"modelID": 39369
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1361_1.jpg",
+				"mediaID": 7893037,
+				"structureID": 1361,
+				"productID": 420,
+				"modelID": 39315
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1361_1.jpg",
+				"mediaID": 9061387,
+				"structureID": 1361,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Interspinous ligaments": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1360_1.jpg",
+				"mediaID": 9061252,
+				"structureID": 1360,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Sacrotuberous ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1389_1.jpg",
+				"mediaID": 7905589,
+				"structureID": 1389,
+				"productID": 421,
+				"modelID": 39377
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1389_1.jpg",
+				"mediaID": 7893992,
+				"structureID": 1389,
+				"productID": 420,
+				"modelID": 39323
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1389_1.jpg",
+				"mediaID": 9061390,
+				"structureID": 1389,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Lateral patellar retinaculum (lateral retinacular ligament)": [
+			{
+				"regions": [
+					10,
+					8
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1320_1.jpg",
+				"mediaID": 7897251,
+				"structureID": 1320,
+				"productID": 421,
+				"modelID": 39339
+			},
+			{
+				"regions": [
+					10,
+					8
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1320_1.jpg",
+				"mediaID": 7890482,
+				"structureID": 1320,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [
+					10,
+					8
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1320_1.jpg",
+				"mediaID": 9062292,
+				"structureID": 1320,
+				"productID": 444,
+				"modelID": 43006
+			}
+		],
+		"Attachments of ligamenta flava": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4356_1.jpg",
+				"mediaID": 9061124,
+				"structureID": 4356,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Transverse acetabular ligament": [
+			{
+				"regions": [
+					1,
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1326_1.jpg",
+				"mediaID": 9060979,
+				"structureID": 1326,
+				"productID": 444,
+				"modelID": 43004
+			}
+		],
+		"Attachments of interosseous sacro-iliac ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4368_1.jpg",
+				"mediaID": 9061304,
+				"structureID": 4368,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Attachments of patellar ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_4362_1.jpg",
+				"mediaID": 7897035,
+				"structureID": 4362,
+				"productID": 421,
+				"modelID": 39337
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_4362_1.jpg",
+				"mediaID": 7890818,
+				"structureID": 4362,
+				"productID": 420,
+				"modelID": 39303
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4362_1.jpg",
+				"mediaID": 9062244,
+				"structureID": 4362,
+				"productID": 444,
+				"modelID": 43006
+			}
+		],
+		"Posterior longitudinal ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1301_1.jpg",
+				"mediaID": 9061312,
+				"structureID": 1301,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Deltoid ligament: anterior tibiotalar part": [
+			{
+				"regions": [
+					16,
+					21,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1181_1.jpg",
+				"mediaID": 7898450,
+				"structureID": 1181,
+				"productID": 421,
+				"modelID": 39344
+			},
+			{
+				"regions": [
+					16,
+					21,
+					18
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1181_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1181,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					16,
+					21,
+					18
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1181_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1181,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Attachments of lateral collateral ligament (ankle joint)": [
+			{
+				"regions": [],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_4354_1.jpg",
+				"mediaID": 7898821,
+				"structureID": 4354,
+				"productID": 421,
+				"modelID": 39344
+			}
+		],
+		"Attachments of iliolumbar ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4345_1.jpg",
+				"mediaID": 9061024,
+				"structureID": 4345,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Surface anatomy: patellar ligament (ligamentum patella)": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_3156_1.jpg",
+				"mediaID": 7892519,
+				"structureID": 3156,
+				"productID": 420,
+				"modelID": 39308
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_3156_1.jpg",
+				"mediaID": 9064491,
+				"structureID": 3156,
+				"productID": 444,
+				"modelID": 43025
+			}
+		],
+		"Attachments of sacrotuberous ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4261_1.jpg",
+				"mediaID": 9060334,
+				"structureID": 4261,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Attachments of sacrotuberous ligament: falciform process": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4262_1.jpg",
+				"mediaID": 9060214,
+				"structureID": 4262,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Deep transverse metatarsal ligaments": [
+			{
+				"regions": [
+					22,
+					23
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1192_1.jpg",
+				"mediaID": 7902763,
+				"structureID": 1192,
+				"productID": 421,
+				"modelID": 39349
+			},
+			{
+				"regions": [
+					22,
+					23
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1192_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1192,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					22,
+					23
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1192_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1192,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Deltoid ligament: posterior tibiotalar part": [
+			{
+				"regions": [
+					16,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1182_1.jpg",
+				"mediaID": 7898582,
+				"structureID": 1182,
+				"productID": 421,
+				"modelID": 39344
+			}
+		],
+		"Plantar intermetatarsal ligaments": [
+			{
+				"regions": [
+					22
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1209_1.jpg",
+				"mediaID": 7901872,
+				"structureID": 1209,
+				"productID": 421,
+				"modelID": 39348
+			}
+		],
+		"Interosseous sacro-iliac ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1381_1.jpg",
+				"mediaID": 7904626,
+				"structureID": 1381,
+				"productID": 421,
+				"modelID": 39369
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1381_1.jpg",
+				"mediaID": 7893028,
+				"structureID": 1381,
+				"productID": 420,
+				"modelID": 39315
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1381_1.jpg",
+				"mediaID": 9061306,
+				"structureID": 1381,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Patellar ligament (ligamentum patella)": [
+			{
+				"regions": [
+					10,
+					8
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1323_1.jpg",
+				"mediaID": 7897071,
+				"structureID": 1323,
+				"productID": 421,
+				"modelID": 39337
+			},
+			{
+				"regions": [
+					10,
+					8
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1323_1.jpg",
+				"mediaID": 7889612,
+				"structureID": 1323,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [
+					10,
+					8
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1323_1.jpg",
+				"mediaID": 9062580,
+				"structureID": 1323,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Anterior (ventral) sacro-iliac ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1380_1.jpg",
+				"mediaID": 7904527,
+				"structureID": 1380,
+				"productID": 421,
+				"modelID": 39369
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1380_1.jpg",
+				"mediaID": 7892938,
+				"structureID": 1380,
+				"productID": 420,
+				"modelID": 39315
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1380_1.jpg",
+				"mediaID": 9060156,
+				"structureID": 1380,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Lateral collateral ligament (ankle joint): calcaneofibular part": [
+			{
+				"regions": [
+					16,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1177_1.jpg",
+				"mediaID": 7899095,
+				"structureID": 1177,
+				"productID": 421,
+				"modelID": 39344
+			}
+		],
+		"Anterior cruciate ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1313_1.jpg",
+				"mediaID": 7896557,
+				"structureID": 1313,
+				"productID": 421,
+				"modelID": 39337
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1313_1.jpg",
+				"mediaID": 7892080,
+				"structureID": 1313,
+				"productID": 420,
+				"modelID": 39306
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1313_1.jpg",
+				"mediaID": 9062066,
+				"structureID": 1313,
+				"productID": 444,
+				"modelID": 43006
+			}
+		],
+		"Dorsal cuboideonavicular ligament": [
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1186_1.jpg",
+				"mediaID": 7900495,
+				"structureID": 1186,
+				"productID": 421,
+				"modelID": 39347
+			}
+		],
+		"Sacrotuberous ligament: falciform process": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1390_1.jpg",
+				"mediaID": 7905509,
+				"structureID": 1390,
+				"productID": 421,
+				"modelID": 39377
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1390_1.jpg",
+				"mediaID": 7893912,
+				"structureID": 1390,
+				"productID": 420,
+				"modelID": 39323
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1390_1.jpg",
+				"mediaID": 9060220,
+				"structureID": 1390,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Talonavicular ligament": [
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1216_1.jpg",
+				"mediaID": 7901386,
+				"structureID": 1216,
+				"productID": 421,
+				"modelID": 39348
+			},
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1216_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1216,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1216_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1216,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Medial metatarsosesamoid ligament": [
+			{
+				"regions": [
+					22,
+					23
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1199_1.jpg",
+				"mediaID": 7903005,
+				"structureID": 1199,
+				"productID": 421,
+				"modelID": 39349
+			}
+		],
+		"Attachments of deltoid ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_4577_1.jpg",
+				"mediaID": 7898551,
+				"structureID": 4577,
+				"productID": 421,
+				"modelID": 39344
+			}
+		],
+		"Attachments of ligamentum teres (Syn. femoral head ligament)": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4343_1.jpg",
+				"mediaID": 9060734,
+				"structureID": 4343,
+				"productID": 444,
+				"modelID": 43002
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4343_1.jpg",
+				"mediaID": 9060734,
+				"structureID": 4343,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Anterior ligament of head of fibula": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1172_1.jpg",
+				"mediaID": 7896960,
+				"structureID": 1172,
+				"productID": 421,
+				"modelID": 39337
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1172_1.jpg",
+				"mediaID": 7891363,
+				"structureID": 1172,
+				"productID": 420,
+				"modelID": 39303
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1172_1.jpg",
+				"mediaID": 9062544,
+				"structureID": 1172,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Posterior menisco-meniscal ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1332_1.jpg",
+				"mediaID": 7891119,
+				"structureID": 1332,
+				"productID": 420,
+				"modelID": 39303
+			}
+		],
+		"Ischiofemoral ligament": [
+			{
+				"regions": [
+					1,
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1318_1.jpg",
+				"mediaID": 9060840,
+				"structureID": 1318,
+				"productID": 444,
+				"modelID": 43003
+			}
+		],
+		"Plantar cuneonavicular ligaments": [
+			{
+				"regions": [
+					22
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1207_1.jpg",
+				"mediaID": 7901872,
+				"structureID": 1207,
+				"productID": 421,
+				"modelID": 39348
+			}
+		],
+		"Plantar plates (plantar ligaments): interphalangeal joints": [
+			{
+				"regions": [
+					21,
+					22,
+					23
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1201_1.jpg",
+				"mediaID": 7902820,
+				"structureID": 1201,
+				"productID": 421,
+				"modelID": 39349
+			},
+			{
+				"regions": [
+					21,
+					22,
+					23
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1201_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1201,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					21,
+					22,
+					23
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1201_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1201,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Posterior tibiofibular ligament (Syn. posterior inferior tibiofibular ligament)": [
+			{
+				"regions": [
+					15,
+					16,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1214_1.jpg",
+				"mediaID": 7898798,
+				"structureID": 1214,
+				"productID": 421,
+				"modelID": 39344
+			},
+			{
+				"regions": [
+					15,
+					16,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1214_1.jpg",
+				"mediaID": 7898798,
+				"structureID": 1214,
+				"productID": 421,
+				"modelID": 39344
+			},
+			{
+				"regions": [
+					15,
+					16,
+					18
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1214_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1214,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					15,
+					16,
+					18
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1214_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1214,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					15,
+					16,
+					18
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1214_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1214,
+				"productID": 444,
+				"modelID": 43008
+			},
+			{
+				"regions": [
+					15,
+					16,
+					18
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1214_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1214,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Plantar calcaneonavicular ligament (Syn. spring ligament)": [
+			{
+				"regions": [
+					22
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1204_1.jpg",
+				"mediaID": 7900873,
+				"structureID": 1204,
+				"productID": 421,
+				"modelID": 39347
+			},
+			{
+				"regions": [
+					22
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1204_1.jpg",
+				"mediaID": 7900873,
+				"structureID": 1204,
+				"productID": 421,
+				"modelID": 39347
+			}
+		],
+		"Attachments of lacunar ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4250_1.jpg",
+				"mediaID": 9060034,
+				"structureID": 4250,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Attachments of ischiofemoral ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4353_1.jpg",
+				"mediaID": 9060514,
+				"structureID": 4353,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Attachments of iliofemoral ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4238_1.jpg",
+				"mediaID": 9060674,
+				"structureID": 4238,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Cervical ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1178_1.jpg",
+				"mediaID": 7900495,
+				"structureID": 1178,
+				"productID": 421,
+				"modelID": 39347
+			}
+		],
+		"Anococcygeal ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1348_1.jpg",
+				"mediaID": 9060282,
+				"structureID": 1348,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Iliofemoral ligament": [
+			{
+				"regions": [
+					1,
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1317_1.jpg",
+				"mediaID": 9060876,
+				"structureID": 1317,
+				"productID": 444,
+				"modelID": 43003
+			}
+		],
+		"Surface anatomy: inguinal ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_3235_1.jpg",
+				"mediaID": 9064491,
+				"structureID": 3235,
+				"productID": 444,
+				"modelID": 43025
+			}
+		],
+		"Attachments of posterior longitudinal ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4364_1.jpg",
+				"mediaID": 9061384,
+				"structureID": 4364,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Attachments of posterior cruciate ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_4363_1.jpg",
+				"mediaID": 7891115,
+				"structureID": 4363,
+				"productID": 420,
+				"modelID": 39303
+			}
+		],
+		"Lateral talocalcaneal ligament": [
+			{
+				"regions": [
+					16,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1196_1.jpg",
+				"mediaID": 7899095,
+				"structureID": 1196,
+				"productID": 421,
+				"modelID": 39344
+			},
+			{
+				"regions": [
+					16,
+					18
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1196_1.jpg",
+				"mediaID": 7892451,
+				"structureID": 1196,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					16,
+					18
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1196_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1196,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Bursa between lateral collateral ligament and popliteus tendon": [
+			{
+				"regions": [
+					4,
+					10,
+					8
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_3812_1.jpg",
+				"mediaID": 7891340,
+				"structureID": 3812,
+				"productID": 420,
+				"modelID": 39303
+			}
+		],
+		"Attachments of coccygeus and sacrospinous ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4369_1.jpg",
+				"mediaID": 9060214,
+				"structureID": 4369,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Dorsal tarsometatarsal ligaments": [
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1191_1.jpg",
+				"mediaID": 7901386,
+				"structureID": 1191,
+				"productID": 421,
+				"modelID": 39348
+			},
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1191_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1191,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1191_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1191,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Lisfranc ligament": [
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1197_1.jpg",
+				"mediaID": 7900791,
+				"structureID": 1197,
+				"productID": 421,
+				"modelID": 39347
+			}
+		],
+		"Bursa between lateral collateral ligament and biceps femoris tendon": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_3813_1.jpg",
+				"mediaID": 7890318,
+				"structureID": 3813,
+				"productID": 420,
+				"modelID": 39302
+			}
+		],
+		"Anterior (ventral) sacrococcygeal ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1384_1.jpg",
+				"mediaID": 9060037,
+				"structureID": 1384,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Attachments of inguinal ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4349_1.jpg",
+				"mediaID": 9060034,
+				"structureID": 4349,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Attachments of interspinous ligaments": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4351_1.jpg",
+				"mediaID": 9061384,
+				"structureID": 4351,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Oblique popliteal ligament": [
+			{
+				"regions": [
+					4,
+					11,
+					8
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1330_1.jpg",
+				"mediaID": 7897255,
+				"structureID": 1330,
+				"productID": 421,
+				"modelID": 39339
+			},
+			{
+				"regions": [
+					4,
+					11,
+					8
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1330_1.jpg",
+				"mediaID": 7891015,
+				"structureID": 1330,
+				"productID": 420,
+				"modelID": 39303
+			},
+			{
+				"regions": [
+					4,
+					11,
+					8
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1330_1.jpg",
+				"mediaID": 9062548,
+				"structureID": 1330,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Lateral collateral ligament (ankle joint): anterior talofibular part": [
+			{
+				"regions": [
+					16,
+					21,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1173_1.jpg",
+				"mediaID": 7899095,
+				"structureID": 1173,
+				"productID": 421,
+				"modelID": 39344
+			},
+			{
+				"regions": [
+					16,
+					21,
+					18
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1173_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1173,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					16,
+					21,
+					18
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1173_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1173,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Deltoid ligament: tibiocalcaneal part": [
+			{
+				"regions": [
+					16,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1183_1.jpg",
+				"mediaID": 7898582,
+				"structureID": 1183,
+				"productID": 421,
+				"modelID": 39344
+			},
+			{
+				"regions": [
+					16,
+					18
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1183_1.jpg",
+				"mediaID": 7892480,
+				"structureID": 1183,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					16,
+					18
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1183_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1183,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Metatarsoglenoid suspensory ligaments (Syn. accessory collateral ligaments)": [
+			{
+				"regions": [
+					22,
+					23
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1215_1.jpg",
+				"mediaID": 7902708,
+				"structureID": 1215,
+				"productID": 421,
+				"modelID": 39349
+			},
+			{
+				"regions": [
+					22,
+					23
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1215_1.jpg",
+				"mediaID": 7902708,
+				"structureID": 1215,
+				"productID": 421,
+				"modelID": 39349
+			}
+		],
+		"Metatarsophalangeal collateral ligaments": [
+			{
+				"regions": [
+					22,
+					23
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1180_1.jpg",
+				"mediaID": 7902708,
+				"structureID": 1180,
+				"productID": 421,
+				"modelID": 39349
+			},
+			{
+				"regions": [
+					22,
+					23
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1180_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1180,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					22,
+					23
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1180_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1180,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Posterior meniscofemoral ligament (Syn. ligament of Wrisberg)": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1331_1.jpg",
+				"mediaID": 7891119,
+				"structureID": 1331,
+				"productID": 420,
+				"modelID": 39303
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1331_1.jpg",
+				"mediaID": 7891119,
+				"structureID": 1331,
+				"productID": 420,
+				"modelID": 39303
+			}
+		],
+		"Medial patellar retinaculum (medial retinacular ligament)": [
+			{
+				"regions": [
+					10,
+					8
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1322_1.jpg",
+				"mediaID": 7897287,
+				"structureID": 1322,
+				"productID": 421,
+				"modelID": 39339
+			},
+			{
+				"regions": [
+					10,
+					8
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1322_1.jpg",
+				"mediaID": 7889645,
+				"structureID": 1322,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [
+					10,
+					8
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1322_1.jpg",
+				"mediaID": 9061932,
+				"structureID": 1322,
+				"productID": 444,
+				"modelID": 43006
+			}
+		],
+		"Dorsal intermetatarsal ligaments": [
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1190_1.jpg",
+				"mediaID": 7901386,
+				"structureID": 1190,
+				"productID": 421,
+				"modelID": 39348
+			}
+		],
+		"Inguinal ligament": [
+			{
+				"regions": [
+					5
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1358_1.jpg",
+				"mediaID": 7904788,
+				"structureID": 1358,
+				"productID": 421,
+				"modelID": 39369
+			},
+			{
+				"regions": [
+					5
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1358_1.jpg",
+				"mediaID": 7892893,
+				"structureID": 1358,
+				"productID": 420,
+				"modelID": 39315
+			},
+			{
+				"regions": [
+					5
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1358_1.jpg",
+				"mediaID": 9060042,
+				"structureID": 1358,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Superior pubic ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1373_1.jpg",
+				"mediaID": 9060042,
+				"structureID": 1373,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Interosseus talocalcaneal ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1194_1.jpg",
+				"mediaID": 7899095,
+				"structureID": 1194,
+				"productID": 421,
+				"modelID": 39344
+			}
+		],
+		"Plantar cuneocuboid ligament": [
+			{
+				"regions": [
+					22
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1206_1.jpg",
+				"mediaID": 7901953,
+				"structureID": 1206,
+				"productID": 421,
+				"modelID": 39348
+			}
+		],
+		"Arcuate popliteal ligament": [
+			{
+				"regions": [
+					4,
+					10,
+					8
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1328_1.jpg",
+				"mediaID": 7897263,
+				"structureID": 1328,
+				"productID": 421,
+				"modelID": 39339
+			},
+			{
+				"regions": [
+					4,
+					10,
+					8
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1328_1.jpg",
+				"mediaID": 7892292,
+				"structureID": 1328,
+				"productID": 420,
+				"modelID": 39306
+			},
+			{
+				"regions": [
+					4,
+					10,
+					8
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1328_1.jpg",
+				"mediaID": 9062556,
+				"structureID": 1328,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Long posterior (dorsal) sacro-iliac ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1382_1.jpg",
+				"mediaID": 7905589,
+				"structureID": 1382,
+				"productID": 421,
+				"modelID": 39377
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1382_1.jpg",
+				"mediaID": 7893992,
+				"structureID": 1382,
+				"productID": 420,
+				"modelID": 39323
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1382_1.jpg",
+				"mediaID": 9061390,
+				"structureID": 1382,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Coronary ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1314_1.jpg",
+				"mediaID": 7897259,
+				"structureID": 1314,
+				"productID": 421,
+				"modelID": 39339
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1314_1.jpg",
+				"mediaID": 7892353,
+				"structureID": 1314,
+				"productID": 420,
+				"modelID": 39306
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1314_1.jpg",
+				"mediaID": 9059857,
+				"structureID": 1314,
+				"productID": 444,
+				"modelID": 43001
+			}
+		],
+		"Short posterior (dorsal) sacro-iliac ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1383_1.jpg",
+				"mediaID": 7905589,
+				"structureID": 1383,
+				"productID": 421,
+				"modelID": 39377
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1383_1.jpg",
+				"mediaID": 7893992,
+				"structureID": 1383,
+				"productID": 420,
+				"modelID": 39323
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1383_1.jpg",
+				"mediaID": 9061390,
+				"structureID": 1383,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Pectineal ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1371_1.jpg",
+				"mediaID": 9060162,
+				"structureID": 1371,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Dorsal cuneocuboid ligament": [
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1187_1.jpg",
+				"mediaID": 7900495,
+				"structureID": 1187,
+				"productID": 421,
+				"modelID": 39347
+			}
+		],
+		"Attachments of lateral collateral ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_4355_1.jpg",
+				"mediaID": 7891277,
+				"structureID": 4355,
+				"productID": 420,
+				"modelID": 39303
+			}
+		],
+		"Attachments of pubofemoral ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4365_1.jpg",
+				"mediaID": 9060034,
+				"structureID": 4365,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Deltoid ligament: tibionavicular part": [
+			{
+				"regions": [
+					16,
+					21,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1184_1.jpg",
+				"mediaID": 7898451,
+				"structureID": 1184,
+				"productID": 421,
+				"modelID": 39344
+			},
+			{
+				"regions": [
+					16,
+					21,
+					18
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1184_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1184,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					16,
+					21,
+					18
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1184_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1184,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Arcuate pubic ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1372_1.jpg",
+				"mediaID": 9060302,
+				"structureID": 1372,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Natatory ligaments (Syn. plantar interdigital or superficial transverse metatarsal ligaments)": [
+			{
+				"regions": [
+					22,
+					23
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_2252_1.jpg",
+				"mediaID": 7902801,
+				"structureID": 2252,
+				"productID": 421,
+				"modelID": 39349
+			},
+			{
+				"regions": [
+					22,
+					23
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_2252_1.jpg",
+				"mediaID": 7902801,
+				"structureID": 2252,
+				"productID": 421,
+				"modelID": 39349
+			}
+		],
+		"Sacrospinous ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1388_1.jpg",
+				"mediaID": 7905509,
+				"structureID": 1388,
+				"productID": 421,
+				"modelID": 39377
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1388_1.jpg",
+				"mediaID": 7893912,
+				"structureID": 1388,
+				"productID": 420,
+				"modelID": 39323
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1388_1.jpg",
+				"mediaID": 9061107,
+				"structureID": 1388,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Attachments of plantar calcaneonavicular ligament (Syn. spring ligament)": [
+			{
+				"regions": [],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_4579_1.jpg",
+				"mediaID": 7900842,
+				"structureID": 4579,
+				"productID": 421,
+				"modelID": 39347
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_4579_1.jpg",
+				"mediaID": 7900842,
+				"structureID": 4579,
+				"productID": 421,
+				"modelID": 39347
+			}
+		],
+		"Dorsal cuneonavicular ligaments": [
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1188_1.jpg",
+				"mediaID": 7901386,
+				"structureID": 1188,
+				"productID": 421,
+				"modelID": 39348
+			},
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1188_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1188,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1188_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1188,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Attachments of anterior longitudinal ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4358_1.jpg",
+				"mediaID": 9061024,
+				"structureID": 4358,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Dorsal intercuneiform ligaments": [
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1189_1.jpg",
+				"mediaID": 7901386,
+				"structureID": 1189,
+				"productID": 421,
+				"modelID": 39348
+			},
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1189_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1189,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1189_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1189,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Bifurcate ligament: calcaneonavicular part": [
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1176_1.jpg",
+				"mediaID": 7901386,
+				"structureID": 1176,
+				"productID": 421,
+				"modelID": 39348
+			}
+		],
+		"Long plantar ligament": [
+			{
+				"regions": [
+					22
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1198_1.jpg",
+				"mediaID": 7900875,
+				"structureID": 1198,
+				"productID": 421,
+				"modelID": 39347
+			},
+			{
+				"regions": [
+					22
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1198_1.jpg",
+				"mediaID": 7892462,
+				"structureID": 1198,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					22
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1198_1.jpg",
+				"mediaID": 9062561,
+				"structureID": 1198,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Interphalangeal collateral ligaments": [
+			{
+				"regions": [
+					21,
+					23
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1179_1.jpg",
+				"mediaID": 7902330,
+				"structureID": 1179,
+				"productID": 421,
+				"modelID": 39349
+			},
+			{
+				"regions": [
+					21,
+					23
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1179_1.jpg",
+				"mediaID": 7892447,
+				"structureID": 1179,
+				"productID": 420,
+				"modelID": 39307
+			},
+			{
+				"regions": [
+					21,
+					23
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1179_1.jpg",
+				"mediaID": 9062546,
+				"structureID": 1179,
+				"productID": 444,
+				"modelID": 43008
+			}
+		],
+		"Attachments of intertransverse ligaments": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4352_1.jpg",
+				"mediaID": 9061024,
+				"structureID": 4352,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Attachments of transverse acetabular ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4326_1.jpg",
+				"mediaID": 9060674,
+				"structureID": 4326,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Posterior cruciate ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1324_1.jpg",
+				"mediaID": 7896553,
+				"structureID": 1324,
+				"productID": 421,
+				"modelID": 39337
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1324_1.jpg",
+				"mediaID": 7891118,
+				"structureID": 1324,
+				"productID": 420,
+				"modelID": 39303
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1324_1.jpg",
+				"mediaID": 9062066,
+				"structureID": 1324,
+				"productID": 444,
+				"modelID": 43006
+			}
+		],
+		"Bifurcate ligament: calcaneocuboid part": [
+			{
+				"regions": [
+					21
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1175_1.jpg",
+				"mediaID": 7901386,
+				"structureID": 1175,
+				"productID": 421,
+				"modelID": 39348
+			}
+		],
+		"Superficial posterior (dorsal) sacrococcygeal ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1387_1.jpg",
+				"mediaID": 7905589,
+				"structureID": 1387,
+				"productID": 421,
+				"modelID": 39377
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1387_1.jpg",
+				"mediaID": 7893992,
+				"structureID": 1387,
+				"productID": 420,
+				"modelID": 39323
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1387_1.jpg",
+				"mediaID": 9060361,
+				"structureID": 1387,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Attachments of supraspinous ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4373_1.jpg",
+				"mediaID": 9061384,
+				"structureID": 4373,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Anterior meniscofemoral ligament (Syn. ligament of Humphry)": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1327_1.jpg",
+				"mediaID": 7892177,
+				"structureID": 1327,
+				"productID": 420,
+				"modelID": 39306
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1327_1.jpg",
+				"mediaID": 7892177,
+				"structureID": 1327,
+				"productID": 420,
+				"modelID": 39306
+			}
+		],
+		"Interosseous tibiofibular ligament": [
+			{
+				"regions": [
+					15,
+					16,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1193_1.jpg",
+				"mediaID": 7898798,
+				"structureID": 1193,
+				"productID": 421,
+				"modelID": 39344
+			}
+		],
+		"Plantar cuboideonavicular ligament": [
+			{
+				"regions": [
+					22
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1205_1.jpg",
+				"mediaID": 7901872,
+				"structureID": 1205,
+				"productID": 421,
+				"modelID": 39348
+			}
+		],
+		"Menisco-fibular ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1329_1.jpg",
+				"mediaID": 7891093,
+				"structureID": 1329,
+				"productID": 420,
+				"modelID": 39303
+			}
+		],
+		"Medial talocalcaneal ligament": [
+			{
+				"regions": [
+					16,
+					22,
+					18
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1200_1.jpg",
+				"mediaID": 7898690,
+				"structureID": 1200,
+				"productID": 421,
+				"modelID": 39344
+			}
+		],
+		"Plantar calcaneocuboid ligament (Syn. short plantar ligament)": [
+			{
+				"regions": [
+					22
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1203_1.jpg",
+				"mediaID": 7900873,
+				"structureID": 1203,
+				"productID": 421,
+				"modelID": 39347
+			},
+			{
+				"regions": [
+					22
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1203_1.jpg",
+				"mediaID": 7900873,
+				"structureID": 1203,
+				"productID": 421,
+				"modelID": 39347
+			}
+		],
+		"Posterior ligament of head of fibula": [
+			{
+				"regions": [
+					4,
+					15
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1211_1.jpg",
+				"mediaID": 7896553,
+				"structureID": 1211,
+				"productID": 421,
+				"modelID": 39337
+			},
+			{
+				"regions": [
+					4,
+					15
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1211_1.jpg",
+				"mediaID": 7890985,
+				"structureID": 1211,
+				"productID": 420,
+				"modelID": 39303
+			}
+		],
+		"Plantar tarsometatarsal ligaments": [
+			{
+				"regions": [
+					22
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1210_1.jpg",
+				"mediaID": 7901872,
+				"structureID": 1210,
+				"productID": 421,
+				"modelID": 39348
+			}
+		],
+		"Attachments of anterior cruciate ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_4330_1.jpg",
+				"mediaID": 7892077,
+				"structureID": 4330,
+				"productID": 420,
+				"modelID": 39306
+			}
+		],
+		"Iliolumbar ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1357_1.jpg",
+				"mediaID": 7904788,
+				"structureID": 1357,
+				"productID": 421,
+				"modelID": 39369
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1357_1.jpg",
+				"mediaID": 7892893,
+				"structureID": 1357,
+				"productID": 420,
+				"modelID": 39315
+			},
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1357_1.jpg",
+				"mediaID": 9061027,
+				"structureID": 1357,
+				"productID": 444,
+				"modelID": 43005
+			}
+		],
+		"Lateral collateral ligament (Syn. fibular collateral ligament)": [
+			{
+				"regions": [
+					4,
+					8
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1319_1.jpg",
+				"mediaID": 7897259,
+				"structureID": 1319,
+				"productID": 421,
+				"modelID": 39339
+			},
+			{
+				"regions": [
+					4,
+					8
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1319_1.jpg",
+				"mediaID": 7897259,
+				"structureID": 1319,
+				"productID": 421,
+				"modelID": 39339
+			},
+			{
+				"regions": [
+					4,
+					8
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1319_1.jpg",
+				"mediaID": 7890313,
+				"structureID": 1319,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [
+					4,
+					8
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1319_1.jpg",
+				"mediaID": 7890313,
+				"structureID": 1319,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [
+					4,
+					8
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1319_1.jpg",
+				"mediaID": 9062293,
+				"structureID": 1319,
+				"productID": 444,
+				"modelID": 43006
+			},
+			{
+				"regions": [
+					4,
+					8
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1319_1.jpg",
+				"mediaID": 9062293,
+				"structureID": 1319,
+				"productID": 444,
+				"modelID": 43006
+			}
+		],
+		"Lacunar ligament": [
+			{
+				"regions": [
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1362_1.jpg",
+				"mediaID": 9060162,
+				"structureID": 1362,
+				"productID": 444,
+				"modelID": 43002
+			}
+		],
+		"Supraspinous ligament": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1394_1.jpg",
+				"mediaID": 9061390,
+				"structureID": 1394,
+				"productID": 444,
+				"modelID": 43005
+			}
+		]
+	}
+}

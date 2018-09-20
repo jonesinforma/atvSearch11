@@ -1,0 +1,27 @@
+<svg width="38" height="43" viewBox="0 0 38 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>EMBED</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1044 -588)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 1044 588L 1082 588L 1082 631L 1044 631L 1044 588Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="EMBED" clip-path="url(#clip-0)">
+<g id="Rectangle 44">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(1056 602)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(1056 602)" fill="#FAFAFA"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(1060 606)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 15 0L 15 15L 0 15L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -2L -2 -2L -2 0L 0 0ZM 15 0L 17 0L 17 -2L 15 -2L 15 0ZM 15 15L 15 17L 17 17L 17 15L 15 15ZM 0 15L -2 15L -2 17L 0 17L 0 15ZM 0 2L 15 2L 15 -2L 0 -2L 0 2ZM 13 0L 13 15L 17 15L 17 0L 13 0ZM 15 13L 0 13L 0 17L 15 17L 15 13ZM 2 15L 2 0L -2 0L -2 15L 2 15Z"/>
+<path id="path2_fill" d="M 7 3.5C 7 5.433 5.433 7 3.5 7C 1.567 7 0 5.433 0 3.5C 0 1.567 1.567 0 3.5 0C 5.433 0 7 1.567 7 3.5Z"/>
+</defs>
+</svg>

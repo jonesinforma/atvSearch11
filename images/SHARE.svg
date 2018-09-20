@@ -1,0 +1,26 @@
+<svg width="38" height="43" viewBox="0 0 38 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>SHARE</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-966 -588)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 966 588L 1004 588L 1004 631L 966 631L 966 588Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="SHARE" clip-path="url(#clip-0)">
+<g id="Vector" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(978.185 600.508)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="976" y="599" width="20" height="25" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="1" dy="2"/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 10.1562 12.3906C 9.69921 12.3906 9.24219 12.4922 8.83594 12.7461L 5.33202 9.75C 5.43359 9.44531 5.53516 9.08984 5.53516 8.73438C 5.53516 8.42969 5.48439 8.125 5.38282 7.82031L 8.78514 5.12891C 9.19139 5.38281 9.64845 5.48437 10.207 5.48437C 11.7305 5.48437 13 4.26562 13 2.74219C 13 1.21875 11.7813 1.54972e-06 10.207 1.54972e-06C 8.63283 1.54972e-06 7.41407 1.21875 7.41407 2.74219C 7.41407 3.09765 7.46484 3.40234 7.61718 3.70703L 4.26563 6.34766C 3.85938 6.09375 3.35156 5.94141 2.79296 5.94141C 1.26952 5.94141 -6.19888e-06 7.16016 -6.19888e-06 8.68359C -6.19888e-06 10.207 1.21874 11.4258 2.79296 11.4258C 3.30077 11.4258 3.75781 11.2734 4.16406 11.0703L 7.61718 14.0664C 7.46484 14.3711 7.41407 14.7266 7.41407 15.1328C 7.41407 16.6562 8.63283 17.875 10.207 17.875C 11.7813 17.875 13 16.6562 13 15.1328C 12.9492 13.6602 11.6797 12.3906 10.1562 12.3906Z"/>
+</defs>
+</svg>

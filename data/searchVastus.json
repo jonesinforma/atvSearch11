@@ -1,0 +1,218 @@
+{
+	"Structure": {
+		"Vastus lateralis": [
+			{
+				"regions": [
+					5,
+					10
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1619_1.jpg",
+				"mediaID": 7897250,
+				"structureID": 1619,
+				"productID": 421,
+				"modelID": 39339
+			},
+			{
+				"regions": [
+					5,
+					10
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1619_1.jpg",
+				"mediaID": 7890509,
+				"structureID": 1619,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [
+					5,
+					10
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1619_1.jpg",
+				"mediaID": 9062332,
+				"structureID": 1619,
+				"productID": 444,
+				"modelID": 43006
+			}
+		],
+		"Vastus medialis": [
+			{
+				"regions": [
+					5,
+					10
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1620_1.jpg",
+				"mediaID": 7897251,
+				"structureID": 1620,
+				"productID": 421,
+				"modelID": 39339
+			},
+			{
+				"regions": [
+					5,
+					10
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1620_1.jpg",
+				"mediaID": 7889645,
+				"structureID": 1620,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [
+					5,
+					10
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1620_1.jpg",
+				"mediaID": 9061751,
+				"structureID": 1620,
+				"productID": 444,
+				"modelID": 43006
+			}
+		],
+		"Attachments of vastus intermedius": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_4568_1.jpg",
+				"mediaID": 7890548,
+				"structureID": 4568,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4568_1.jpg",
+				"mediaID": 9062404,
+				"structureID": 4568,
+				"productID": 444,
+				"modelID": 43006
+			}
+		],
+		"Surface anatomy: vastus medialis": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_3167_1.jpg",
+				"mediaID": 7892487,
+				"structureID": 3167,
+				"productID": 420,
+				"modelID": 39308
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_3167_1.jpg",
+				"mediaID": 9064491,
+				"structureID": 3167,
+				"productID": 444,
+				"modelID": 43025
+			}
+		],
+		"Attachments of vastus lateralis": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_4569_1.jpg",
+				"mediaID": 7890332,
+				"structureID": 4569,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4569_1.jpg",
+				"mediaID": 9062244,
+				"structureID": 4569,
+				"productID": 444,
+				"modelID": 43006
+			}
+		],
+		"Vastus intermedius": [
+			{
+				"regions": [
+					5,
+					10
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_1621_1.jpg",
+				"mediaID": 7897251,
+				"structureID": 1621,
+				"productID": 421,
+				"modelID": 39339
+			},
+			{
+				"regions": [
+					5,
+					10
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_1621_1.jpg",
+				"mediaID": 7889638,
+				"structureID": 1621,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [
+					5,
+					10
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_1621_1.jpg",
+				"mediaID": 9062391,
+				"structureID": 1621,
+				"productID": 444,
+				"modelID": 43006
+			}
+		],
+		"Surface anatomy: vastus lateralis": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_3170_1.jpg",
+				"mediaID": 7892516,
+				"structureID": 3170,
+				"productID": 420,
+				"modelID": 39308
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_3170_1.jpg",
+				"mediaID": 9064518,
+				"structureID": 3170,
+				"productID": 444,
+				"modelID": 43025
+			}
+		],
+		"Attachments of vastus medialis": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_4570_1.jpg",
+				"mediaID": 7889684,
+				"structureID": 4570,
+				"productID": 420,
+				"modelID": 39302
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_4570_1.jpg",
+				"mediaID": 9061864,
+				"structureID": 4570,
+				"productID": 444,
+				"modelID": 43006
+			}
+		]
+	}
+}í

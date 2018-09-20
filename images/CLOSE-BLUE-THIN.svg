@@ -1,0 +1,22 @@
+<svg width="30" height="32" viewBox="0 0 30 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>CLOSE-BLUE-THIN</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-226 -17)" figma:type="canvas">
+<mask id="mask0_alpha" mask-type="alpha">
+<path d="M 226 17L 256 17L 256 49L 226 49L 226 17Z" fill="#FFFFFF"/>
+</mask>
+<g id="CLOSE-BLUE-THIN" mask="url(#mask0_alpha)" figma:type="frame">
+<g id="Group" figma:type="frame">
+<g id="Rectangle 4" figma:type="rounded-rectangle">
+<use xlink:href="#path0_fill" transform="matrix(-0.707107 0.707107 -0.707107 -0.707107 248.071 37.9497)" fill="#7187C7"/>
+</g>
+<g id="Rectangle 4" figma:type="rounded-rectangle">
+<use xlink:href="#path0_fill" transform="matrix(-0.707107 -0.707107 0.707107 -0.707107 236.05 40.0711)" fill="#7187C7"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 1C 0 0.447715 0.447715 0 1 0L 2 0C 2.55228 0 3 0.447715 3 1L 3 16C 3 16.5523 2.55228 17 2 17L 1 17C 0.447715 17 0 16.5523 0 16L 0 1Z"/>
+</defs>
+</svg>

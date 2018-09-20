@@ -1,0 +1,425 @@
+[
+  {
+    "name": "Lower limb", 
+    "parent": "", 
+    "level": 1
+  }, 
+  {
+    "name": "Muscles", 
+    "parent": "Lower limb", 
+    "level": 2
+  }, 
+  {
+    "name": "Flexors", 
+    "parent": "Muscles", 
+    "level": 3
+  }, 
+  {
+    "code": "Gr_LL__M_flex_thigh", 
+    "name": "Flexors of the thigh", 
+    "parent": "Flexors", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__M_flex_leg", 
+    "name": "Flexors of the leg", 
+    "parent": "Flexors", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__M_flex_foot", 
+    "name": "Flexors of the foot", 
+    "parent": "Flexors", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__M_flex_gr_toe", 
+    "name": "Flexors of the great toe", 
+    "parent": "Flexors", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__M_flex_toes", 
+    "name": "Flexors of the toes", 
+    "parent": "Flexors", 
+    "level": 4
+  }, 
+  {
+    "name": "Extensors", 
+    "parent": "Muscles", 
+    "level": 3
+  }, 
+  {
+    "code": "Gr_LL__M_ext_thigh", 
+    "name": "Extensors of the thigh", 
+    "parent": "Extensors", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__M_ext_leg", 
+    "name": "Extensors of the leg", 
+    "parent": "Extensors", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__M_ext_foot", 
+    "name": "Extensors of the foot", 
+    "parent": "Extensors", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__M_ext_gr_toe", 
+    "name": "Extensors of the great toe", 
+    "parent": "Extensors", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__M_ext_toes", 
+    "name": "Extensors of the toes", 
+    "parent": "Extensors", 
+    "level": 4
+  }, 
+  {
+    "name": "Adductors", 
+    "parent": "Muscles", 
+    "level": 3
+  }, 
+  {
+    "code": "Gr_LL__M_add_thigh", 
+    "name": "Adductors of the thigh", 
+    "parent": "Adductors", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__M_add_gr_toe", 
+    "name": "Adductors of the great toe", 
+    "parent": "Adductors", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__M_add_toes", 
+    "name": "Adductors of the toes", 
+    "parent": "Adductors", 
+    "level": 4
+  }, 
+  {
+    "name": "Abductors", 
+    "parent": "Muscles", 
+    "level": 3
+  }, 
+  {
+    "code": "Gr_LL__M_abd_thigh", 
+    "name": "Abductos of the thigh", 
+    "parent": "Abductors", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__M_abd_gr_toe", 
+    "name": "Abductors of the great toes", 
+    "parent": "Abductors", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__M_abd_toes", 
+    "name": "Abductors of the toes", 
+    "parent": "Abductors", 
+    "level": 4
+  }, 
+  {
+    "name": "Internal rotators", 
+    "parent": "Muscles", 
+    "level": 3
+  }, 
+  {
+    "code": "Gr_LL__M_int_rot_thigh", 
+    "name": "Internal rotators of the thigh", 
+    "parent": "Internal rotators", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__M_int_rot_leg", 
+    "name": "Internal rotators of the leg", 
+    "parent": "Internal rotators", 
+    "level": 4
+  }, 
+  {
+    "name": "External rotators", 
+    "parent": "Muscles", 
+    "level": 3
+  }, 
+  {
+    "code": "Gr_LL__M_ext_rot_thigh", 
+    "name": "External rotations of the thigh", 
+    "parent": "External rotators", 
+    "level": 4
+  }, 
+  {
+    "name": "Evertors", 
+    "parent": "Muscles", 
+    "level": 3
+  }, 
+  {
+    "code": "Gr_LL__M_evert_foot", 
+    "name": "Everts the foot", 
+    "parent": "Evertors", 
+    "level": 4
+  }, 
+  {
+    "name": "Invertors", 
+    "parent": "Muscles", 
+    "level": 3
+  }, 
+  {
+    "code": "Gr_LL__M_invert_foot", 
+    "name": "Inverts the foot", 
+    "parent": "Invertors", 
+    "level": 4
+  }, 
+  {
+    "name": "Vasculature", 
+    "parent": "Lower limb", 
+    "level": 2
+  }, 
+  {
+    "name": "Vessels", 
+    "parent": "Vasculature", 
+    "level": 3
+  }, 
+  {
+    "name": "Hip and thigh", 
+    "parent": "Vessels", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Hip_thigh__joint_Hip", 
+    "name": "Hip joint", 
+    "parent": "Hip and thigh", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Hip_thigh__reg_Gluteal", 
+    "name": "Gluteal region", 
+    "parent": "Hip and thigh", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Hip_thigh__reg_Ant", 
+    "name": "Anterior thigh", 
+    "parent": "Hip and thigh", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Hip_thigh__reg_Pos", 
+    "name": "Posterior thigh", 
+    "parent": "Hip and thigh", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Hip_thigh__reg_Med", 
+    "name": "Medial thigh", 
+    "parent": "Hip and thigh", 
+    "level": 5
+  }, 
+  {
+    "name": "Knee ", 
+    "parent": "Vessels", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Knee__joint_Knee", 
+    "name": "Knee joint", 
+    "parent": "Knee ", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Knee__reg_Patella", 
+    "name": "Patella region", 
+    "parent": "Knee ", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Knee__reg_Popliteal", 
+    "name": "Popliteal region", 
+    "parent": "Knee ", 
+    "level": 5
+  }, 
+  {
+    "name": "Leg", 
+    "parent": "Vessels", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Leg__comp_Ant", 
+    "name": "Anterior compartment", 
+    "parent": "Leg", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Leg__comp_Lat", 
+    "name": "Lateral compartment", 
+    "parent": "Leg", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Leg__comp_Pos", 
+    "name": "Posterior compartment", 
+    "parent": "Leg", 
+    "level": 5
+  }, 
+  {
+    "name": "Ankle ", 
+    "parent": "Vessels", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Ankle", 
+    "name": "Ankle", 
+    "parent": "Ankle ", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Ankle__joint_Ankle", 
+    "name": "Ankle joint", 
+    "parent": "Ankle ", 
+    "level": 5
+  }, 
+  {
+    "name": "Foot", 
+    "parent": "Vessels", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Foot__reg_Heel", 
+    "name": "Heel region", 
+    "parent": "Foot", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Foot__reg_Dorsal", 
+    "name": "Dorsal region", 
+    "parent": "Foot", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Foot__Sole", 
+    "name": "Sole", 
+    "parent": "Foot", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__V__VnAr__Foot__Toes", 
+    "name": "Toes", 
+    "parent": "Foot", 
+    "level": 5
+  }, 
+  {
+    "name": "Skeletal", 
+    "parent": "Lower limb", 
+    "level": 2
+  }, 
+  {
+    "name": "Joints", 
+    "parent": "Skeletal", 
+    "level": 3
+  }, 
+  {
+    "code": "Gr_LL__S__Jt__Hip", 
+    "name": "Hip", 
+    "parent": "Joints", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__S__Jt__Knee", 
+    "name": "Knee", 
+    "parent": "Joints", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__S__Jt__Prox_tibfib", 
+    "name": "Proximal tibiofibular", 
+    "parent": "Joints", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__S__Jt__Ankle", 
+    "name": "Distal tibiofibular", 
+    "parent": "Joints", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__S__Jt__Intertarsal", 
+    "name": "Intertarsal", 
+    "parent": "Joints", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__S__Jt__Tarsomet", 
+    "name": "Tarsometatarsal", 
+    "parent": "Joints", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__S__Jt__Interphal", 
+    "name": "Interphalangeal", 
+    "parent": "Joints", 
+    "level": 4
+  }, 
+  {
+    "name": "Bones of the lower limb", 
+    "parent": "Skeletal", 
+    "level": 3
+  }, 
+  {
+    "code": "Gr_LL__S__Bn__Pelvic_girdle_thigh", 
+    "name": "Bones of the pelvic girdle and thigh", 
+    "parent": "Bones of the lower limb", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__S__Bn__Leg", 
+    "name": "Bones of the leg", 
+    "parent": "Bones of the lower limb", 
+    "level": 4
+  }, 
+  {
+    "name": "Bones of the foot", 
+    "parent": "Bones of the lower limb", 
+    "level": 4
+  }, 
+  {
+    "code": "Gr_LL__S__Bn__Foot__Tarsal", 
+    "name": "Tarsal bones", 
+    "parent": "Bones of the foot", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__S__Bn__Foot__MetaTarsal", 
+    "name": "Metatarsals", 
+    "parent": "Bones of the foot", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__S__Bn__Foot__Phal", 
+    "name": "Phalanges", 
+    "parent": "Bones of the foot", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__S__Bn__Foot__Acc_bn", 
+    "name": "Accessory bones", 
+    "parent": "Bones of the foot", 
+    "level": 5
+  }, 
+  {
+    "code": "Gr_LL__N__Foot__Toes", 
+    "name": "Nerves", 
+    "parent": "Lower limb", 
+    "level": 2
+  }, 
+  {
+    "code": "Gr_LL__SyLy", 
+    "name": "Lymphatic", 
+    "parent": "Lower limb", 
+    "level": 2
+  }
+]

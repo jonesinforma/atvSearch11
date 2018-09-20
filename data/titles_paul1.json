@@ -1,0 +1,586 @@
+{
+  "Anatomy & Physiology": [
+    {
+      "titleID": 182, 
+      "app": "cardiovascular_system", 
+      "description": "APO - Cardiovascular System", 
+      "name": "Cardiovascular System", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "cardiovascular", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 183, 
+      "app": "body_plan_and_organization", 
+      "description": "APO - Body Plan and Organization", 
+      "name": "Body Plan and Organization", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "bodyplan", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 184, 
+      "app": "lymphatic_system", 
+      "description": "APO - Lymphatic System and Immunity", 
+      "name": "Lymphatic System and Immunity", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "lymphatic", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 185, 
+      "app": "integumentary_system", 
+      "description": "APO - Integumentary System", 
+      "name": "Integumentary System", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "integumentary", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 186, 
+      "app": "endocrine_system", 
+      "description": "APO - Endocrine System", 
+      "name": "Endocrine System", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "endocrine", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 187, 
+      "app": "cell_biology", 
+      "description": "APO - Cell Biology", 
+      "name": "Cell Biology", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "cellbiology", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 188, 
+      "app": "muscular_system", 
+      "description": "APO - Muscular System", 
+      "name": "Muscular System", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "muscular", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 189, 
+      "app": "reproductive_system", 
+      "description": "APO - Reproductive System", 
+      "name": "Reproductive System", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "reproductive", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 190, 
+      "app": "nervous_system", 
+      "description": "APO - Nervous System", 
+      "name": "Nervous System", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "nervous", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 191, 
+      "app": "special_senses", 
+      "description": "APO - Special Senses", 
+      "name": "Special Senses", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "specialsenses", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 192, 
+      "app": "urinary_system", 
+      "description": "APO - Urinary System", 
+      "name": "Urinary System", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "urinary", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 194, 
+      "app": "Chemistry", 
+      "description": "APO - Chemistry", 
+      "name": "Chemistry", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "chemistry", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 195, 
+      "app": "Histology", 
+      "description": "APO - Histology", 
+      "name": "Histology", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "histology", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 196, 
+      "app": "skeletal_system", 
+      "description": "APO - Skeletal System", 
+      "name": "Skeletal System", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "skeletal", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 197, 
+      "app": "Metabolism", 
+      "description": "APO - Metabolism", 
+      "name": "Metabolism", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "metabolism", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 198, 
+      "app": "fluid_electrolyte_balance", 
+      "description": "APO - Fluid, Electrolyte & Acid-Base Balance", 
+      "name": "Fluid, Electrolyte & Acid-Base Balance", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "fluid", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 309, 
+      "app": "development_and_inheritance", 
+      "description": "APO - Development and Inheritance", 
+      "name": "Development and Inheritance", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "development", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 178, 
+      "app": "respiratory_system", 
+      "description": "APO - Respiratory System", 
+      "name": "Respiratory System", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "respiratory", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 179, 
+      "app": "digestive_system", 
+      "description": "APO - Digestive System", 
+      "name": "Digestive System", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "digestive", 
+      "group_name": "Anatomy & Physiology"
+    }, 
+    {
+      "titleID": 180, 
+      "app": "Blood", 
+      "description": "APO - Blood", 
+      "name": "Blood", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "blood", 
+      "group_name": "Anatomy & Physiology"
+    }
+  ], 
+  "Clinical Specialties": [
+    {
+      "titleID": 46, 
+      "app": "Head_Dentistry_3D", 
+      "description": "3D Realtime Dentistry Viewer", 
+      "name": "Real-time: Dentistry", 
+      "productID": 0, 
+      "version_title": "2012", 
+      "html5app": "perpetual login", 
+      "group_name": "Clinical Specialties"
+    }, 
+    {
+      "titleID": 93, 
+      "app": "head_slp_Flash", 
+      "description": "Speech & Language Pathology", 
+      "name": "Speech Language Pathology", 
+      "productID": 383, 
+      "version_title": "2012", 
+      "html5app": "html5slp/index.html#product/head_speech_therapy", 
+      "group_name": "Clinical Specialties"
+    }, 
+    {
+      "titleID": 391, 
+      "app": "head_ent2017_Flash", 
+      "description": "3D Anatomy for Otolaryngology and Head and Neck Surgery", 
+      "name": "Otolaryngology", 
+      "productID": 353, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/head_ent/", 
+      "group_name": "Clinical Specialties"
+    }, 
+    {
+      "titleID": 392, 
+      "app": "ChiroSpine2017_flash", 
+      "description": "3D Anatomy for Chiropractic", 
+      "name": "Chiropractic Spine", 
+      "productID": 362, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/chirospine/", 
+      "group_name": "Clinical Specialties"
+    }, 
+    {
+      "titleID": 393, 
+      "app": "PelvicFloorDisorder2017_Flash", 
+      "description": "Pelvic Floor Disorders", 
+      "name": "Pelvic Floor Disorders", 
+      "productID": 320, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/womens_health/", 
+      "group_name": "Clinical Specialties"
+    }, 
+    {
+      "titleID": 365, 
+      "app": "Head_Dentistryv3_Flash", 
+      "description": "3D Head & Neck Anatomy for Dentistry", 
+      "name": "Dentistry", 
+      "productID": 368, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/head_dentistry/", 
+      "group_name": "Clinical Specialties"
+    }, 
+    {
+      "titleID": 375, 
+      "app": "dental_hygienev2_Flash", 
+      "description": "Dental Hygiene", 
+      "name": "Dental Hygiene", 
+      "productID": 358, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/dental_hygiene/", 
+      "group_name": "Clinical Specialties"
+    }
+  ], 
+  "Therapy": [
+    {
+      "titleID": 390, 
+      "app": "manualtherapyv2_Flash", 
+      "description": "3D Anatomy for Manual Therapies", 
+      "name": "Massage and Manual Therapies", 
+      "productID": 373, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/manual_therapies/", 
+      "group_name": "Therapy"
+    }, 
+    {
+      "titleID": 398, 
+      "app": "anatomytrainsv2_Flash", 
+      "description": "Anatomy Trains - Second Edition - Flash", 
+      "name": "Anatomy Trains", 
+      "productID": 359, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/legacyanatomy_trains/", 
+      "group_name": "Therapy"
+    }
+  ], 
+  "Imaging": [
+    {
+      "titleID": 370, 
+      "app": "MSK_Ultrasoundv2_Flash", 
+      "description": "MSK Ultrasound: Lower Limb", 
+      "name": "Ultrasound: Lower Limb", 
+      "productID": 376, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/msk_ultrasound/", 
+      "group_name": "Imaging"
+    }, 
+    {
+      "titleID": 371, 
+      "app": "MSKUltrasound_UpperLimbv2_Flash", 
+      "description": "MSK Ultrasound: Upper Limb", 
+      "name": "Ultrasound: Upper Limb", 
+      "productID": 385, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/msk_ultrasound_upper_limb/", 
+      "group_name": "Imaging"
+    }, 
+    {
+      "titleID": 374, 
+      "app": "CSAR_Trunkv2_Flash", 
+      "description": "Radiological Cross-Sectional Anatomy with Multidetector CT: Thorax, Abdomen and Pelvis", 
+      "name": "Cross-sectional Anatomy", 
+      "productID": 278, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/csar/", 
+      "group_name": "Imaging"
+    }
+  ], 
+  "Functional Anatomy": [
+    {
+      "titleID": 215, 
+      "app": "ifa3e_Flash", 
+      "description": "Interactive Functional Anatomy - Second Edition - Flash", 
+      "name": "Functional Anatomy", 
+      "productID": 453, 
+      "version_title": "2014", 
+      "html5app": "html5ifa3/index.html#product/ifa3", 
+      "group_name": "Functional Anatomy"
+    }, 
+    {
+      "titleID": 376, 
+      "app": "Pilates2017_Flash", 
+      "description": "Anatomy for Pilates - Flash", 
+      "name": "Pilates", 
+      "productID": 338, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/pilates/", 
+      "group_name": "Functional Anatomy"
+    }, 
+    {
+      "titleID": 394, 
+      "app": "yoga2017_Flash", 
+      "description": "3D Anatomy for Yoga", 
+      "name": "Yoga", 
+      "productID": 357, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/yoga/", 
+      "group_name": "Functional Anatomy"
+    }, 
+    {
+      "titleID": 395, 
+      "app": "YMCA2017_Flash", 
+      "description": "Anatomy for Exercise - Flash", 
+      "name": "Exercise", 
+      "productID": 295, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/anatomyforexercise/", 
+      "group_name": "Functional Anatomy"
+    }, 
+    {
+      "titleID": 344, 
+      "app": "ifa4e_Flash", 
+      "description": "Interactive Functional Anatomy - Second Edition - Flash", 
+      "name": "Functional Anatomy", 
+      "productID": 453, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/ifa3/", 
+      "group_name": "Functional Anatomy"
+    }, 
+    {
+      "titleID": 399, 
+      "app": "3DRTv2_Flash", 
+      "description": "Resistance Training", 
+      "name": "Resistance Training", 
+      "productID": 331, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/3drt/", 
+      "group_name": "Functional Anatomy"
+    }
+  ], 
+  "3D Atlas": [
+    {
+      "titleID": 336, 
+      "app": "InteractivePelvis2017_Flash", 
+      "description": "Interactive Pelvis - Flash", 
+      "name": "3D Atlas: Pelvis and Perineum", 
+      "productID": 441, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/har_pelvis_2014/", 
+      "group_name": "3D Atlas"
+    }, 
+    {
+      "titleID": 337, 
+      "app": "interactiveHead2017_Flash", 
+      "description": "Interactive Head - Flash", 
+      "name": "3D Atlas: Head and Neck", 
+      "productID": 442, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/har_head_2014/", 
+      "group_name": "3D Atlas"
+    }, 
+    {
+      "titleID": 338, 
+      "app": "interactiveFoot2017_Flash", 
+      "description": "Interactive Foot - Flash", 
+      "name": "3D Atlas: Leg, Ankle and Foot", 
+      "productID": 421, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/har_foot_2014/", 
+      "group_name": "3D Atlas"
+    }, 
+    {
+      "titleID": 339, 
+      "app": "interactiveHand2017_Flash", 
+      "description": "Interactive Hand - Flash", 
+      "name": "3D Atlas: Forearm, Wrist and Hand", 
+      "productID": 419, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/har_hand_2014/", 
+      "group_name": "3D Atlas"
+    }, 
+    {
+      "titleID": 340, 
+      "app": "interactiveKnee2017_Flash", 
+      "description": "Interactive Knee - Flash", 
+      "name": "3D Atlas: Knee", 
+      "productID": 420, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/har_knee_2014/", 
+      "group_name": "3D Atlas"
+    }, 
+    {
+      "titleID": 341, 
+      "app": "interactiveShoulder2017_Flash", 
+      "description": "Interactive Shoulder - Flash", 
+      "name": "3D Atlas: Shoulder and Arm", 
+      "productID": 446, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/har_shoulder_2014/", 
+      "group_name": "3D Atlas"
+    }, 
+    {
+      "titleID": 342, 
+      "app": "interactiveThorax2017_Flash", 
+      "description": "Interactive Thorax - Flash", 
+      "name": "3D Atlas: Thorax and Abdomen", 
+      "productID": 451, 
+      "version_title": "2017", 
+      "html5app": "html5ui/#/product/har_thorax_2014/", 
+      "group_name": "3D Atlas"
+    }
+  ], 
+  "3D Real-time": [
+    {
+      "titleID": 377, 
+      "app": "HandV4_3D", 
+      "description": "3D Real-time Hand", 
+      "name": "Real-time: Forearm, Wrist and Hand", 
+      "productID": 0, 
+      "version_title": "2017", 
+      "html5app": "pprtHand://", 
+      "group_name": "3D Real-time"
+    }, 
+    {
+      "titleID": 378, 
+      "app": "KneeV4_3D", 
+      "description": "3D Real-time Knee", 
+      "name": "Real-time: Knee", 
+      "productID": 0, 
+      "version_title": "2017", 
+      "html5app": "pprtKnee://", 
+      "group_name": "3D Real-time"
+    }, 
+    {
+      "titleID": 379, 
+      "app": "AbdomenV4_3D", 
+      "description": "3D Real-time Abdomen", 
+      "name": "Real-time: Abdomen", 
+      "productID": 0, 
+      "version_title": "2017", 
+      "html5app": "pprtAbdomen://", 
+      "group_name": "3D Real-time"
+    }, 
+    {
+      "titleID": 380, 
+      "app": "FootV4_3D", 
+      "description": "3D Real-time Foot", 
+      "name": "Real-time: Leg, Ankle and Foot", 
+      "productID": 0, 
+      "version_title": "2017", 
+      "html5app": "pprtFoot://", 
+      "group_name": "3D Real-time"
+    }, 
+    {
+      "titleID": 381, 
+      "app": "HeadV4_3D", 
+      "description": "3D Real-time Head", 
+      "name": "Real-time: Head and Neck", 
+      "productID": 0, 
+      "version_title": "2017", 
+      "html5app": "pprtHead://", 
+      "group_name": "3D Real-time"
+    }, 
+    {
+      "titleID": 382, 
+      "app": "HipV4_3D", 
+      "description": "3D Real-time Hip", 
+      "name": "Real-time: Hip and Thigh", 
+      "productID": 0, 
+      "version_title": "2017", 
+      "html5app": "pprtHip://", 
+      "group_name": "3D Real-time"
+    }, 
+    {
+      "titleID": 383, 
+      "app": "Male_PelvisV4_3D", 
+      "description": "3D Real-time Male Pelvis", 
+      "name": "Real-time: Male Pelvis", 
+      "productID": 0, 
+      "version_title": "2017", 
+      "html5app": "pprtPelvisMale://", 
+      "group_name": "3D Real-time"
+    }, 
+    {
+      "titleID": 384, 
+      "app": "PelvisV4_3D", 
+      "description": "3D Real-time Female Pelvis", 
+      "name": "Real-time: Female Pelvis", 
+      "productID": 0, 
+      "version_title": "2017", 
+      "html5app": "pprtPelvisFemale://", 
+      "group_name": "3D Real-time"
+    }, 
+    {
+      "titleID": 385, 
+      "app": "ShoulderV4_3D", 
+      "description": "3D Real-time Shoulder", 
+      "name": "Shoulder and Arm", 
+      "productID": 0, 
+      "version_title": "2017", 
+      "html5app": "pprtShoulder://", 
+      "group_name": "3D Real-time"
+    }, 
+    {
+      "titleID": 386, 
+      "app": "SpineV4_3D", 
+      "description": "3D Real-time Spine", 
+      "name": "Real-time: Spine", 
+      "productID": 0, 
+      "version_title": "2017", 
+      "html5app": "pprtSpine://", 
+      "group_name": "3D Real-time"
+    }, 
+    {
+      "titleID": 387, 
+      "app": "ThoraxV4_3D", 
+      "description": "3D Real-time Thorax", 
+      "name": "Real-time: Thorax", 
+      "productID": 0, 
+      "version_title": "2017", 
+      "html5app": "pprtThorax://", 
+      "group_name": "3D Real-time"
+    }, 
+    {
+      "titleID": 388, 
+      "app": "WholeBodyV4_3D", 
+      "description": "3D Real-time Wholebody Viewer", 
+      "name": "Real-time: Whole Body", 
+      "productID": 0, 
+      "version_title": "2017", 
+      "html5app": "webgl", 
+      "group_name": "3D Real-time"
+    }
+  ]
+}

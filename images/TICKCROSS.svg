@@ -1,0 +1,28 @@
+<svg width="64" height="36" viewBox="0 0 64 36" class="filterTick" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>TICKCROSS</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-784 -538)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 784 538L 848 538L 848 574L 784 574L 784 538Z" fill="#6b6d70"/>
+</clipPath>
+<g id="TICKCROSS" clip-path="url(#clip-0)">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(794 548)" fill="#6b6d70"/>
+</g>
+</g>
+<g id="Group">
+<g id="Rectangle 4">
+<use xlink:href="#path1_fill" transform="matrix(0.707107 0.707106 -0.707107 0.707106 834.818 549)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 4">
+<use xlink:href="#path1_fill" transform="matrix(-0.707107 0.707106 -0.707107 -0.707106 837 558.818)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 14.8536 1.67241L 13.4219 0.155172C 13.2267 -0.0517242 12.9013 -0.0517242 12.7061 0.155172L 5.22235 8.5L 2.359 5.46552C 2.16377 5.25862 1.8384 5.25862 1.64317 5.46552L 0.146423 7.05172C -0.048805 7.25862 -0.048805 7.60345 0.146423 7.81034L 3.46529 11.3276L 4.89697 12.8448C 5.0922 13.0517 5.41757 13.0517 5.6128 12.8448L 14.8536 2.5C 15.0488 2.22414 15.0488 1.87931 14.8536 1.67241Z"/>
+<path id="path1_fill" d="M 0 0.999999C 0 0.447714 0.447715 0 1 0L 2.08556 0C 2.63784 0 3.08556 0.447715 3.08556 1L 3.08556 12.885C 3.08556 13.4373 2.63784 13.885 2.08556 13.885L 1 13.885C 0.447715 13.885 0 13.4373 0 12.885L 0 0.999999Z"/>
+</defs>
+</svg>

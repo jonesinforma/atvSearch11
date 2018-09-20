@@ -1,0 +1,98 @@
+{
+	"Structure": {
+		"Sciatic nerve": [
+			{
+				"regions": [
+					4,
+					6
+				],
+				"productCode": "HAR_Foot_2014",
+				"thumbURL": "421/thumb_-1_-1_2140_1.jpg",
+				"mediaID": 7905459,
+				"structureID": 2140,
+				"productID": 421,
+				"modelID": 39377
+			},
+			{
+				"regions": [
+					4,
+					6
+				],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_2140_1.jpg",
+				"mediaID": 7894197,
+				"structureID": 2140,
+				"productID": 420,
+				"modelID": 39324
+			},
+			{
+				"regions": [
+					4,
+					6
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_2140_1.jpg",
+				"mediaID": 9059691,
+				"structureID": 2140,
+				"productID": 444,
+				"modelID": 43001
+			}
+		],
+		"Surface anatomy: sciatic nerve": [
+			{
+				"regions": [],
+				"productCode": "HAR_Knee_2014",
+				"thumbURL": "420/thumb_-1_-1_3993_1.jpg",
+				"mediaID": 7892501,
+				"structureID": 3993,
+				"productID": 420,
+				"modelID": 39308
+			},
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_3993_1.jpg",
+				"mediaID": 9064509,
+				"structureID": 3993,
+				"productID": 444,
+				"modelID": 43025
+			}
+		],
+		"Hip bone: lesser sciatic notch": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_2848_1.jpg",
+				"mediaID": 9064904,
+				"structureID": 2848,
+				"productID": 444,
+				"modelID": 43032
+			}
+		],
+		"Hip bone: greater sciatic notch": [
+			{
+				"regions": [],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_2839_1.jpg",
+				"mediaID": 9064910,
+				"structureID": 2839,
+				"productID": 444,
+				"modelID": 43032
+			}
+		],
+		"Sciatic bursa of obturator internus": [
+			{
+				"regions": [
+					1,
+					4
+				],
+				"productCode": "HAR_Hip_2014",
+				"thumbURL": "444/thumb_-1_-1_2318_1.jpg",
+				"mediaID": 9060397,
+				"structureID": 2318,
+				"productID": 444,
+				"modelID": 43002
+			}
+		]
+	}
+}

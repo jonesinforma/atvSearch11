@@ -1,0 +1,22 @@
+<svg width="20" height="40" viewBox="0 0 20 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>checkBox</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-240 -299)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 240 299L 260 299L 260 339L 240 339L 240 299Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="checkBox" clip-path="url(#clip-0)">
+<path d="M 240 299L 260 299L 260 339L 240 339L 240 299Z" fill="#FFFFFF"/>
+<g id="Subtract">
+<use xlink:href="#path0_fill" transform="translate(240 299)" fill="#8DA7CD"/>
+</g>
+<g id="Vector 23">
+<use xlink:href="#path1_stroke" transform="translate(245 326)" fill="#83A1CE"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 20 0L 20 40L 0 40L 0 0ZM 2 2L 18 2L 18 18L 2 18L 2 2ZM 18 22L 2 22L 2 38L 18 38L 18 22Z"/>
+<path id="path1_stroke" d="M 0.883883 2.11612C 0.395728 1.62796 -0.395728 1.62796 -0.883883 2.11612C -1.37204 2.60427 -1.37204 3.39573 -0.883883 3.88388L 0.883883 2.11612ZM 3.5 6.5L 2.61612 7.38388L 3.5 8.26777L 4.38388 7.38388L 3.5 6.5ZM 10.8839 0.883883C 11.372 0.395728 11.372 -0.395728 10.8839 -0.883883C 10.3957 -1.37204 9.60427 -1.37204 9.11612 -0.883883L 10.8839 0.883883ZM -0.883883 3.88388L 2.61612 7.38388L 4.38388 5.61612L 0.883883 2.11612L -0.883883 3.88388ZM 4.38388 7.38388L 10.8839 0.883883L 9.11612 -0.883883L 2.61612 5.61612L 4.38388 7.38388Z"/>
+</defs>
+</svg>

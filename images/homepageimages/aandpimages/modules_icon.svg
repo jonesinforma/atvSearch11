@@ -1,0 +1,43 @@
+<svg width="48" height="48" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>modules_icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-278 -229)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 278 229L 326 229L 326 277L 278 277L 278 229Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="modules_icon" clip-path="url(#clip-0)">
+<g id="Group">
+<g id="Rectangle 71">
+<use xlink:href="#path0_fill" transform="translate(291 243)" fill="#8195A8"/>
+</g>
+<g id="Rectangle 71">
+<use xlink:href="#path0_fill" transform="translate(299 243)" fill="#8195A8"/>
+</g>
+<g id="Rectangle 71">
+<use xlink:href="#path0_fill" transform="translate(307 243)" fill="#8195A8"/>
+</g>
+<g id="Rectangle 71">
+<use xlink:href="#path0_fill" transform="translate(291 250)" fill="#8195A8"/>
+</g>
+<g id="Rectangle 71">
+<use xlink:href="#path0_fill" transform="translate(299 250)" fill="#8195A8"/>
+</g>
+<g id="Rectangle 71">
+<use xlink:href="#path0_fill" transform="translate(307 250)" fill="#8195A8"/>
+</g>
+<g id="Rectangle 71">
+<use xlink:href="#path0_fill" transform="translate(291 257)" fill="#8195A8"/>
+</g>
+<g id="Rectangle 71">
+<use xlink:href="#path0_fill" transform="translate(299 257)" fill="#8195A8"/>
+</g>
+<g id="Rectangle 71">
+<use xlink:href="#path0_fill" transform="translate(307 257)" fill="#8195A8"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 6 0L 6 5L 0 5L 0 0Z"/>
+</defs>
+</svg>

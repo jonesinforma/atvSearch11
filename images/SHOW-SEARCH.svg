@@ -1,0 +1,19 @@
+<svg width="58" height="53" viewBox="0 0 58 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>SHOW-SEARCH</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-568 -459)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 568 459L 626 459L 626 512L 568 512L 568 459Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="SHOW-SEARCH" clip-path="url(#clip-0)">
+<g id="Group">
+<g id="Union">
+<use xlink:href="#path0_fill" transform="translate(583.275 470)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 26.2248 12.5C 26.2248 18.0229 21.7476 22.5 16.2248 22.5C 10.702 22.5 6.22478 18.0229 6.22478 12.5C 6.22478 6.97714 10.702 2.5 16.2248 2.5C 21.7476 2.5 26.2248 6.97714 26.2248 12.5ZM 28.7248 12.5C 28.7248 19.4036 23.1283 25 16.2248 25C 13.2875 25 10.5868 23.9869 8.45311 22.291C 8.38945 22.4 8.31096 22.5027 8.21751 22.5962L 2.56065 28.253C 1.97484 28.8388 1.02513 28.8388 0.439316 28.253C -0.146439 27.6672 -0.146439 26.7175 0.439316 26.1317L 6.09618 20.4749C 6.19096 20.3801 6.29527 20.3007 6.40599 20.2365C 4.72685 18.1084 3.72478 15.4212 3.72478 12.5C 3.72478 5.59644 9.32121 0 16.2248 0C 23.1283 0 28.7248 5.59644 28.7248 12.5Z"/>
+</defs>
+</svg>

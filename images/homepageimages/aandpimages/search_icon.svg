@@ -1,0 +1,25 @@
+<svg width="48" height="48" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>search_icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-341 -229)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 341 229L 389 229L 389 277L 341 277L 341 229Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="search_icon" clip-path="url(#clip-0)">
+<g id="Group">
+<g id="Group">
+<g id="Ellipse (Stroke)">
+<use xlink:href="#path0_fill" transform="matrix(-0.707147 -0.707066 -0.707066 0.707147 378.464 250.25)" fill="#8195A8"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="matrix(-0.707107 0.707107 0.725806 0.6879 362.205 252.736)" fill="#8195A8"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 7.99954 13.0909C 10.811 13.0909 13.0902 10.8116 13.0902 8C 13.0902 5.18837 10.811 2.90909 7.99954 2.90909C 5.18807 2.90909 2.90892 5.18837 2.90892 8C 2.90892 10.8116 5.18807 13.0909 7.99954 13.0909ZM 7.99954 16C 12.4176 16 15.9991 12.4183 15.9991 8C 15.9991 3.58172 12.4176 0 7.99954 0C 3.58152 0 0 3.58172 0 8C 0 12.4183 3.58152 16 7.99954 16Z"/>
+<path id="path1_fill" d="M 0 1.73903C 0 0.778591 0.778591 0 1.73903 0L 11.0808 0C 12.0413 0 12.8199 0.778591 12.8199 1.73903C 12.8199 2.69947 12.0413 3.47806 11.0808 3.47806L 1.73903 3.47806C 0.778591 3.47806 0 2.69947 0 1.73903Z"/>
+</defs>
+</svg>

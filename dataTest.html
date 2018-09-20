@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>dataTest</title>
+	<script src="js/external/jquery-2.1.0.min.js"></script>
+	<script src="js/dataTest.js"></script>
+	<script src="js/external/lodash.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Muli';
+			color: #595959;
+		}
+		h2 {
+			font-size: 13px;
+			margin: 0 0 6px 0;
+		}
+		#MENU {
+			display: inline-block;
+			width: 100%;
+			padding: 20px;
+			background: hsla(0, 0%, 90%, 1);
+		}
+		.TAB {
+			width: 20%;
+			/* float: left; */
+			background: gray;
+			color: white;
+			padding: 10px;
+			margin-bottom: 5px;
+		}
+		.PANEL {
+			/* position: absolute; */
+			width: calc(100% - 40px);
+			padding: 20px;
+			border: 1px solid gray;
+			right: 0;
+			background: lightgray;
+			margin: 10px 0;
+		}
+		.MODULE {
+			display: inline-block;
+			vertical-align: top;
+			margin: 0 10px 10px 0;
+			width: 180px;
+			height: 110px;
+			background: white;
+			padding: 10px;
+			font-size: 13px;
+			line-height: 1.1em;
+		}
+		.codeBox {
+			font-size: 10px;
+			font-weight: 800;
+		}
+	</style>
+</head>
+
+<body>
+	<h3>Systems test</h3>
+	<div id="MENU"></div>
+	<div class="PANEL level1 regions shown" data-id="regions">
+		<div class="TAB level2 systems_cardio" data-id="systems_cardio" onclick="f.tabClicked(this)">
+			<div><span>Cardiovascular</span></div>
+		</div>
+		<div class="TAB level2 systems_digestive" data-id="systems_digestive" onclick="f.tabClicked(this)">
+			<div><span>Digestive</span></div>
+		</div>
+		<div class="PANEL level2 systems_cardio" data-id="systems_cardio">
+			<h2>Cardiovascular</h2>
+		</div>
+		<div class="PANEL level2 systems_digestive" data-id="systems_digestive">
+			<h2>Digestive</h2>
+		</div>
+	</div>
+	<script>usePaulData();</script>
+</body>
+
+
+
+</html>
