@@ -3,11 +3,11 @@
 		"Made up illustration: from HAP": [
 			{
 				"regions": [],
-				"productCode": "HAP_Muscluar_2017",
-				"thumbURL": "421/thumb_-1_7907316_-1_2.jpg",
-				"mediaID": 7907316,
+				"productCode": "HAP_Muscular_2014",
+				"thumbURL": "301/thumb_-1_-1_465_1.jpg",
+				"mediaID": 7907311,
 				"structureID": null,
-				"productID": 421,
+				"productID": 301,
 				"modelID": 0
 			}
 		]
@@ -40,17 +40,37 @@
 		"Made up dissection image: from RT": [
 			{
 				"regions": [],
-				"productCode": "RT_Foot_2018",
-				"thumbURL": "420/thumb_-1_-1_1321_1.jpg",
-				"mediaID": 7907316,
+				"productCode": "RT_Hip_2014",
+				"thumbURL": "200/thumb_-1_-1_1321_1.jpg",
+				"mediaID": 7907312,
 				"structureID": null,
-				"productID": 421,
+				"productID": 200,
+				"modelID": 0
+			}
+		],
+		"Another made up dissection image: from RT": [
+			{
+				"regions": [],
+				"productCode": "RT_Knee_2014",
+				"thumbURL": "201/thumb_-1_-1_1321_1.jpg",
+				"mediaID": 7907312,
+				"structureID": null,
+				"productID": 201,
 				"modelID": 0
 			}
 		]
 	},
 	"Structure": {
 		"Medial collateral ligament (Syn. tibial collateral ligament)": [
+			{
+				"regions": [],
+				"productCode": "RT_Foot_2014",
+				"thumbURL": "MADEUP/thumb_-1_-1_1321_1.jpg",
+				"mediaID": 7896395,
+				"structureID": 1321,
+				"productID": 202,
+				"modelID": 39337
+			},
 			{
 				"regions": [
 					8

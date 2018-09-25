@@ -64,7 +64,6 @@ f.searchClicks = function (elem) {
 	
 	
 	
-	
 	// ONE LINE OR MULTI ROW
 	
 	if ($elem.hasClass('showMore')) {
@@ -166,6 +165,7 @@ f.searchClicks = function (elem) {
 	}
 	
 	
+	
 	// POSITION EXPLORE CONTENT
 	
 	f.positionExplore = function($explore, $cell, $group) {
@@ -189,7 +189,6 @@ f.searchClicks = function (elem) {
 	};
 	
 	
-	
 
 	// EXPLORE PANEL OPEN OR CLOSE
 	
@@ -200,7 +199,7 @@ f.searchClicks = function (elem) {
 		$explore = $elem.closest('.module').find('.exploreContent');
 		$cell = $explore.closest('.searchCell');
 		cellClickedPosY = $cell.position().top;
-		passiveCellHeight = $group.find('.searchCell').not('.clicked').eq(0).outerHeight(true);
+		passiveCellHeight = $cell.find('.moduleShadow').outerHeight(true);
 
 		f.positionExploreTable($explore, $cell, 0);
 		
@@ -260,6 +259,7 @@ f.searchClicks = function (elem) {
 				$group.animate({
 					'height': newHeight
 				}, 500, function () {
+					$group.css('height', '');
 					$group.removeClass('exploring');
 					$tab.removeClass('exploring');
 				});
@@ -330,6 +330,7 @@ f.searchClicks = function (elem) {
 			$prevGroup.animate({
 				'height': prevHeight
 			}, 500, function () {
+				$prevGroup.css('height', '');
 				$prevGroup.removeClass('exploring');
 				g.$prevTab.removeClass('exploring');
 			});

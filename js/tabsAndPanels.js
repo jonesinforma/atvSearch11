@@ -4,8 +4,8 @@
 g.$prevTab = undefined;
 g.$prevPanel = undefined;
 g.$searchPanel = undefined;
-g.$searchTABbox = undefined;
-g.$searchPANELbox = undefined;
+g.$searchResultsTAB = undefined;
+g.$searchResultsPANEL = undefined;
 g.$tabTemplate = undefined;
 
 
@@ -94,12 +94,12 @@ f.tabsAndPanels = function (source) {
 		identifyLastTabForBrowse(g.$browsePanel);
 
 		g.$searchPanel = $('.PANEL.level0#SEARCH');
-		g.$searchTABbox = $('<div class="searchTABbox"></div>');
+		g.$searchResultsTAB = $('<div class="searchResultsTAB"></div>');
 		g.$addSearchBtn = $('<div class="TAB level1 addSearchBtn persistant" title="Add another search" onclick="f.anotherSearch(this)"></div>');
-		g.$addSearchBtn.appendTo(g.$searchTABbox);
-		g.$searchPanel.append(g.$searchTABbox);
-		g.$searchPANELbox = $('<div class="searchPANELbox"></div>');
-		g.$searchPanel.append(g.$searchPANELbox);
+		g.$addSearchBtn.appendTo(g.$searchResultsTAB);
+		g.$searchPanel.append(g.$searchResultsTAB);
+		g.$searchResultsPANEL = $('<div class="searchResultsPANEL"></div>');
+		g.$searchPanel.append(g.$searchResultsPANEL);
 
 
 		f.makeTitles('data/titles.json');

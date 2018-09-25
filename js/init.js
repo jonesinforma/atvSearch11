@@ -6,6 +6,7 @@ var f = {}, // functions
 
 var searchObject = [];
 
+g.searchMobileLayoutWidth = 1130;
 g.$browsePanel = undefined;
 g.$searchPanel = undefined;
 g.$panelShown = undefined;

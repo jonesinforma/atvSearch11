@@ -46,21 +46,30 @@ f.tabClicked = function(elem) {
 	$panelToShow.siblings('.PANEL').removeClass('shown');
 
 
-	// SEARCH TAB
-	if ($this.parent().hasClass('searchTABbox')) {
-		$panelToShow = g.$searchPANELbox.children('.PANEL#' + uniqueName);
+	// SEARCH RESULTS TAB
+	if ($this.parent().hasClass('searchResultsTAB')) {
+		$panelToShow = g.$searchResultsPANEL.children('.PANEL#' + uniqueName);
 		g.activeSearchId = uniqueName;
-		console.log('TABCLICKED ' + g.activeSearchId);
+//  		console.log('TABCLICKED');
+// 		console.log(g.allSearches[g.activeSearchId]);
 // 		console.log('SEARCH TAB ' + $panelToShow.attr('class'));
+		
+		$this.siblings().addClass('persistant');
+		g.$searchResultsPANEL.children().addClass('persistant');
+		
+		if (!$this.hasClass('alone')) {
+			$this.removeClass('persistant');
+			$panelToShow.removeClass('persistant');
+		}
 		
 		f.updateSearchArrays($this,uniqueName,$panelToShow);
 		
 		// move the shown panel to the top
-		$panelToShow.appendTo(g.$searchPANELbox);
+		$panelToShow.appendTo(g.$searchResultsPANEL);
 		
 		// if the tabs are multi-row, position clicked tab before shown panel
 		if (g.$searchPanel.hasClass('multiRowTabs')) {
-			$this.appendTo(g.$searchTABbox);
+			$this.appendTo(g.$searchResultsTAB);
 		}
 		
 		f.checkForMultiRowTabs();		
@@ -179,7 +188,7 @@ f.updateSearchArrays = function($this,uniqueName,$panelToShow) {
 	
 // 	console.log('updateSearchArrays');
 	
-	// array is to enable the previously looked at tab to be shown when a tab is closed
+	// the array is to enable the previously looked at tab to be shown when a tab is closed
 	$.each(tabArray, function(i, tab) {
 		
 		// remove tab and panel if they're already in array
@@ -192,8 +201,13 @@ f.updateSearchArrays = function($this,uniqueName,$panelToShow) {
 	// add tab and panel to beginning
 	tabArray.unshift($this);
 	panelArray.unshift($panelToShow);
-//   	console.table(tabArray);
-//	console.table(panelArray);
+	
+
+	if (tabArray.length === 1) {
+		tabArray[0].addClass('alone').removeClass('persistant');
+		panelArray[0].removeClass('persistant');
+	}
+
 };
 
 
@@ -205,7 +219,9 @@ f.updateSearchArrays = function($this,uniqueName,$panelToShow) {
 function closeSearch(cross) {
 	var $cross = $(cross);
 	var toCloseName = $cross.parent().attr('id');
-// 	console.log(toCloseName);
+	delete g.allSearches[toCloseName];
+	console.log(g.allSearches);
+	
 	$.each(tabArray, function(i, tab) {
 		if ($(tab).hasClass(toCloseName)) {
 // 			console.log(i, tab);
@@ -221,12 +237,14 @@ function closeSearch(cross) {
 // 			console.log(tabArray);
 			if (tabArray.length === 1) {
 				console.log('ALONE');
-				tabArray[0].addClass('alone');
+				tabArray[0].addClass('alone').removeClass('persistant');
+				panelArray[0].removeClass('persistant');
 			}
 		}
 	});
 	
-	//	console.table(tabArray);
+	console.table(tabArray);
+	console.table(panelArray);
 	
 	// make previously clicked tab and panel active
 	if (tabArray.length > 0) {

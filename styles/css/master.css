@@ -500,10 +500,10 @@ input[type="submit"] {
       margin: 10px 0 0 10px; }
     #SEARCH.PANEL.level0.multiRowTabs .TAB:not(.clicked) {
       height: 25px; }
-  #SEARCH.PANEL.level0 .searchTABbox {
+  #SEARCH.PANEL.level0 .searchResultsTAB {
     position: relative;
     flex: 0 1 auto; }
-  #SEARCH.PANEL.level0 .searchPANELbox {
+  #SEARCH.PANEL.level0 .searchResultsPANEL {
     position: relative;
     flex: 1 1 auto; }
   #SEARCH.PANEL.level0 h2 {
@@ -539,13 +539,16 @@ input[type="submit"] {
     /* box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.05); */ }
 #SEARCH .searchGroups {
   position: relative;
+  display: flex;
+  flex-direction: column;
   margin: 0 0px 20px 0px;
   padding: 0 0px 0px 0px;
   overflow: hidden; }
   #SEARCH .searchGroups .TAB {
-    height: auto;
+    flex: 0 1 auto;
+    height: 30px;
     border: none;
-    background-color: #a09992;
+    background-color: #948c84;
     font-weight: 400;
     margin: 0 20px;
     padding: 0;
@@ -553,7 +556,9 @@ input[type="submit"] {
     line-height: 14px;
     width: calc(100% - 40px);
     text-align: left;
-    cursor: default; }
+    cursor: default;
+    display: flex;
+    justify-content: space-between; }
     #SEARCH .searchGroups .TAB :after {
       content: '';
       position: absolute;
@@ -583,6 +588,7 @@ input[type="submit"] {
         bottom: 0;
         right: 0; }
     #SEARCH .searchGroups .TAB .resultsTotal {
+      flex: 1 0 auto;
       padding: 0 20px 0 20px;
       text-align: left;
       font-size: 10px;
@@ -590,8 +596,8 @@ input[type="submit"] {
       #SEARCH .searchGroups .TAB .resultsTotal span {
         font-size: 14px; }
     #SEARCH .searchGroups .TAB .showMore {
-      float: right;
       text-align: right;
+      min-width: 138px;
       cursor: pointer;
       font-size: 10px;
       padding-left: 20px;
@@ -642,12 +648,12 @@ input[type="submit"] {
     position: relative;
     display: block;
     height: auto;
-    margin: 10px 0 20px 0;
+    margin: 10px 0 5px 0;
     padding: 0;
     background: white;
     border: none;
     overflow: hidden;
-    transition: margin 0.3s; }
+    transition: none; }
     #SEARCH .searchGroups .PANEL.searchGroupPanel:after {
       content: ' ';
       position: absolute;
@@ -738,7 +744,6 @@ input[type="submit"] {
         margin-bottom: 31px; }
     #SEARCH .searchCell .module .moduleShadow {
       position: relative;
-      overflow: hidden;
       margin-bottom: 20px;
       box-shadow: 1px 2px 2px 0px rgba(170, 170, 170, 0.25);
       border: 1px solid lightgray;
@@ -808,10 +813,11 @@ input[type="submit"] {
   transform: translateX(0%);
   bottom: 0px;
   overflow: visible;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   margin: 20px 0 0 20px;
   transition: transform 0.5s; }
   #SEARCH .filterBAR .filterScroller {
+    overflow-x: hidden;
     overflow-y: auto;
     height: calc(100% - 30px); }
 #SEARCH .withCookie .searchGroups {
@@ -853,7 +859,7 @@ input[type="submit"] {
 #SEARCH .filtersHidden .filterBAR, #SEARCH .withPlaceholderText .filterBAR {
   transform: translateX(calc(-100% - 25px)); }
   #SEARCH .filtersHidden .filterBAR .resultsTotal, #SEARCH .withPlaceholderText .filterBAR .resultsTotal {
-    color: #a09992; }
+    color: #948c84; }
 #SEARCH .filtersHidden .searchScroller, #SEARCH .withPlaceholderText .searchScroller {
   left: 0px;
   width: 100%; }
@@ -867,13 +873,12 @@ input[type="submit"] {
     width: 260px;
     height: 260px; }
   #SEARCH .filtersHidden .exploreContent .exploreTable .exploreOptions, #SEARCH .withPlaceholderText .exploreContent .exploreTable .exploreOptions {
-    margin-top: 78px; }
+    margin-top: 74px; }
   #SEARCH .filtersHidden .exploreContent .exploreTable h1, #SEARCH .withPlaceholderText .exploreContent .exploreTable h1 {
     margin-left: 280px; }
 #SEARCH .filtersHidden .hideFilterBarButton, #SEARCH .withPlaceholderText .hideFilterBarButton {
   transform: rotate(180deg);
   background-color: #d2d1d0;
-  border-left: 1px solid white;
   margin-left: -1px; }
   #SEARCH .filtersHidden .hideFilterBarButton:after, #SEARCH .withPlaceholderText .hideFilterBarButton:after {
     left: -2px; }
@@ -887,7 +892,7 @@ input[type="submit"] {
   color: white;
   font-size: 12px;
   border-bottom: 1px solid #ebebeb;
-  background-color: #a09992;
+  background-color: #948c84;
   padding-left: 15px; }
   #SEARCH .filterHeader:after {
     height: 0; }
@@ -928,51 +933,92 @@ input[type="submit"] {
     color: #6a6274;
     color: white;
     border-bottom: 1px solid whitesmoke;
-    background-color: #a09992;
+    background-color: #948c84;
     transition: color 0.5s; }
     #SEARCH .filterTAB.resultsTotal:after {
       height: 0; }
     #SEARCH .filterTAB.resultsTotal span {
       font-size: 14px; }
-#SEARCH .filterPANEL {
+#SEARCH .filterPANEL:last-child {
   border-bottom: 1px solid #e4ded7; }
+#SEARCH .filterPANEL .filterPANEL {
+  padding: 0 0 0 28px; }
+  #SEARCH .filterPANEL .filterPANEL:last-child {
+    border-bottom: none; }
 #SEARCH .filterTable {
   display: table;
   width: 100%;
   position: relative;
   padding: 8px 0 6px;
-  background: white; }
+  background: rgba(255, 255, 255, 0.5); }
+  #SEARCH .filterTable .filterTable {
+    padding: 0; }
   #SEARCH .filterTable .filterRow {
-    display: table-row;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
     font-weight: 600;
-    cursor: pointer;
     height: 38px;
     width: 100%;
     color: #7c7c82; }
-    #SEARCH .filterTable .filterRow.active {
+    #SEARCH .filterTable .filterRow.showing {
       color: #7e758a; }
-      #SEARCH .filterTable .filterRow.active .cell:after {
+      #SEARCH .filterTable .filterRow.showing .cell:after {
+        background-position: -65px 50%; }
+    #SEARCH .filterTable .filterRow.checked .cell:after {
+      background-position: -5px 50%; }
+    #SEARCH .filterTable .filterRow.inactive .cell:after {
+      background-position: -30px 50%; }
+    #SEARCH .filterTable .filterRow.partial .cell:after {
+      background-position: -95px 50%; }
+    #SEARCH .filterTable .filterRow.withChildren {
+      cursor: pointer; }
+      #SEARCH .filterTable .filterRow.withChildren:hover span {
+        background-color: #cecece;
+        opacity: 0.4; }
+      #SEARCH .filterTable .filterRow.withChildren.spanHover span {
+        background-color: white;
+        opacity: 0.2; }
+      #SEARCH .filterTable .filterRow.withChildren span {
         content: '';
         position: absolute;
-        width: 30px;
-        height: 30px;
-        left: 0px;
-        top: 2px;
-        background-image: url(../../images/FILTER.svg);
-        /* opacity: 0.5; */
-        /* background-size: 60px; */
-        background-position: 0px 0px;
-        }
+        width: 34px;
+        height: 34px;
+        background: url(../../images/TABCHEVRON.svg);
+        background-position: -5px -5px;
+        top: 0;
+        right: 4px;
+        opacity: 0.2;
+        transition: transform 0.25s;
+        cursor: pointer;
+        border-radius: 50%; }
+      #SEARCH .filterTable .filterRow.withChildren.opened span {
+        transform: rotate(90deg); }
     #SEARCH .filterTable .filterRow .cell {
       position: relative;
-      display: table-cell;
-      vertical-align: middle;
-      padding: 0 8px 0 40px;
-      line-height: 1em;
+      box-sizing: border-box;
+      margin-left: 4px;
+      padding: 8px 12px 8px 36px;
       font-size: 12px;
       letter-spacing: 0.02em;
-      width: 100%;
-      font-weight: 600; }
+      font-weight: 600;
+      cursor: pointer; }
+      #SEARCH .filterTable .filterRow .cell:after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 6px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-image: url(../../images/FILTER.svg);
+        background-position: 0 50%;
+        border: 1px solid lightgray;
+        background-color: white; }
+      #SEARCH .filterTable .filterRow .cell:hover {
+        background-color: #efece7; }
 #SEARCH .active .filterTable {
   display: table; }
 #SEARCH .exploreButton {
@@ -1078,7 +1124,7 @@ input[type="submit"] {
       height: 186px;
       width: 495px;
       box-sizing: border-box;
-      margin-top: 48px;
+      margin-top: 54px;
       display: flex;
       align-items: flex-end;
       flex-wrap: wrap;
@@ -1393,7 +1439,7 @@ input[type="submit"] {
       z-index: 2;
       box-sizing: border-box;
       border: 6px solid rgba(0, 0, 0, 0);
-      border-left-color: #a09992; }
+      border-left-color: #948c84; }
     .COOKIE .cookieCrumb.active.clicked {
       color: #6a6274; }
     .COOKIE .cookieCrumb.cursorDefault {
@@ -1478,10 +1524,10 @@ input[type="submit"] {
       #SEARCH.PANEL.level0.multiRowTabs .title {
         text-align: right;
         line-height: 13px; }
-    #SEARCH.PANEL.level0 .searchTABbox {
+    #SEARCH.PANEL.level0 .searchResultsTAB {
       padding: 0 20px; }
   #SEARCH .filtersHidden .exploreContent .exploreTable, #SEARCH .filtersShown .exploreContent .exploreTable {
-    width: calc(100vw - 20px);
+    width: 100vw;
     padding: 25px 0 15px 0px; }
     #SEARCH .filtersHidden .exploreContent .exploreTable h1, #SEARCH .filtersShown .exploreContent .exploreTable h1 {
       margin-left: 280px; }
@@ -1489,7 +1535,7 @@ input[type="submit"] {
       width: 260px;
       height: 260px; }
     #SEARCH .filtersHidden .exploreContent .exploreTable .exploreOptions, #SEARCH .filtersShown .exploreContent .exploreTable .exploreOptions {
-      margin-top: 78px; }
+      margin-top: 74px; }
   #SEARCH .searchGroups .PANEL.searchGroupPanel:after {
     height: 1px; }
   #SEARCH .searchGroups .PANEL.searchGroupPanel.contracted {
@@ -1762,7 +1808,7 @@ input[type="submit"] {
     width: 230px;
     height: 230px; }
   #SEARCH .filtersHidden .exploreContent .exploreTable .exploreOptions, #SEARCH .filtersShown .exploreContent .exploreTable .exploreOptions {
-    margin-top: 48px; } }
+    margin-top: 43px; } }
 @media screen and (max-width: 768px) {
   .SEARCHUI {
     padding: 0; }

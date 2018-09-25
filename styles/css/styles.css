@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$light0".
-        on line 44 of scss/styles.scss
+        on line 45 of scss/styles.scss
 
-39: }
 40: 
-41: .SEARCHUI {
-42: 	height: calc(100vh - 30px);
-43: 	box-sizing: border-box;
-44: 	background-color: $light0;
-45: 	font-family: 'Muli';
-46: 	font-size: 12px;
-47: 	text-align: center;
-48: 	color: gray;
-49: 	padding: 0px 40px 0 40px;
+41: 
+42: .SEARCHUI {
+43: 	height: calc(100vh - 30px);
+44: 	box-sizing: border-box;
+45: 	background-color: $light0;
+46: 	font-family: 'Muli';
+47: 	font-size: 12px;
+48: 	text-align: center;
+49: 	color: gray;
+50: 	padding: 0px 40px 0 40px;
 
 Backtrace:
-scss/styles.scss:44
+scss/styles.scss:45
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -69,4 +69,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$light0\".\A         on line 44 of scss/styles.scss\A \A 39: }\A 40: \A 41: .SEARCHUI {\A 42: 	height: calc(100vh - 30px);\A 43: 	box-sizing: border-box;\A 44: 	background-color: $light0;\A 45: 	font-family: 'Muli';\A 46: 	font-size: 12px;\A 47: 	text-align: center;\A 48: 	color: gray;\A 49: 	padding: 0px 40px 0 40px;"; }
+  content: "Error: Undefined variable: \"$light0\".\A         on line 45 of scss/styles.scss\A \A 40: \A 41: \A 42: .SEARCHUI {\A 43: 	height: calc(100vh - 30px);\A 44: 	box-sizing: border-box;\A 45: 	background-color: $light0;\A 46: 	font-family: 'Muli';\A 47: 	font-size: 12px;\A 48: 	text-align: center;\A 49: 	color: gray;\A 50: 	padding: 0px 40px 0 40px;"; }

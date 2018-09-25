@@ -98,7 +98,7 @@
 						    line-height: 13px;
 					}
 				}
-				.searchTABbox {
+				.searchResultsTAB {
 					padding: 0 20px;
 				}
 			}
@@ -109,7 +109,8 @@
 		.filtersHidden, .filtersShown {
 			.exploreContent {
 				.exploreTable {
-					width: calc(100vw - 20px);
+// 					width: calc(100vw - 20px);
+					width: 100vw;
 					padding: 25px 0 15px 0px;
 					h1 {
 						margin-left: 280px;
@@ -119,7 +120,7 @@
 						height: 260px;
 					}
 					.exploreOptions {
-						margin-top: 78px;
+						margin-top: 74px;
 					}
 				}
 			}
@@ -519,7 +520,7 @@
 						height: 230px;
 					}
 					.exploreOptions {
-						margin-top: 48px;
+						margin-top: 43px;
 					}
 				}
 			}

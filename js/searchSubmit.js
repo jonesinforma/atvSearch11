@@ -30,23 +30,23 @@ f.clearSearchInput = undefined;
 
 
 // PREPARE BUTTONS & INPUT
-f.prepareSearchButtons = function() {
-	
+f.prepareSearchButtons = function () {
+
 
 	// Input
 	g.$searchInputBox = $('#searchText');
-	g.$searchInputBox.on('keydown', function(e) {
+	g.$searchInputBox.on('keydown', function (e) {
 		f.enterSearchText(e.target.value, e);
 	});
 	g.$searchInputBox.on('input', checkForEmptyInput);
-	
+
 	// Clear input
 	g.$searchClear = $('.searchBox .searchClear');
 	g.$searchClear.on('click', f.clearSearchInput);
-	
+
 	// Submit via search button
 	g.$searchButton = $('.searchBox .searchButton');
-	g.$searchButton.on('click', function() {
+	g.$searchButton.on('click', function () {
 		var $searchText = $('#searchText');
 		if ($searchText.val()) {
 			f.enterSearchText($searchText.val(), null);
@@ -56,18 +56,18 @@ f.prepareSearchButtons = function() {
 
 
 // SEARCH ENTER
-f.enterSearchText = function(inputText, e){
-	
+f.enterSearchText = function (inputText, e) {
+
 	// Search submitted by return key
 	if (e && e.keyCode == 13) {
 		searchText = e.target.value;
-//		searchText = testSearchString;
-		console.log(searchText);
+		//		searchText = testSearchString;
+		// 		console.log(searchText);
 		if (searchText) {
 			f.searchSubmitted(searchText);
 		}
 	}
-	
+
 	// Search submitted via button
 	if (e === null) {
 		f.searchSubmitted(inputText);
@@ -77,7 +77,7 @@ f.enterSearchText = function(inputText, e){
 
 // IF INPUT TEXT IS DELETED
 function checkForEmptyInput(e) {
-	console.log(g.$searchInputBox.val().length, e.target.value);
+	//	console.log(g.$searchInputBox.val().length, e.target.value);
 	if (g.$searchInputBox.val().length < 1) {
 		g.$searchClear.fadeOut();
 		g.$searchButton.removeClass('clickable');
@@ -87,31 +87,33 @@ function checkForEmptyInput(e) {
 	}
 }
 
+
 // CLEAR SEARCH INPUT
-f.clearSearchInput = function(e) {
+f.clearSearchInput = function (e) {
 	console.log('f.clearSearchInput');
 	g.$searchClear.css('display', '');
 	g.$searchInputBox.val('');
 	g.$searchButton.removeClass('clickable');
 	g.$searchInputBox.focus();
-	
+
 };
+
 
 // INITIALISE SEARCH
 f.searchSubmitted = function (input, browseArray) {
-	
-	console.log('input is ' + input);
+
+	// 	console.log('input is ' + input);
 
 	g.searchInput = input;
 	searchString = g.searchInput.split(' ').join('');
-	
+
 	searchTextLink = 'search' + searchString;
 	var source = 'data/' + searchTextLink + '.json'; // pre-prepared search results
-	
-//	var source = 'http://webx:8082/openSearch/' + g.searchInput;
-	
-	console.log('$$$$ ' + source);
-	
+
+	//	var source = 'http://webx:8082/openSearch/' + g.searchInput;
+
+	// 	console.log('$$$$ ' + source);
+
 	searchId = searchString + searchIndex;
 
 	g.$resultsPanel = g.$TEMPLATES.children('.PANEL.level1#SEARCH').clone();
@@ -125,62 +127,28 @@ f.searchSubmitted = function (input, browseArray) {
 	$resultsTab.children('.title').html(g.searchInput);
 
 	getSearchData(source, browseArray);
-	
+
 };
 
 
 // GET DATA
 var count;
+
 function getSearchData(source, browseArray) {
 	$.getJSON(source, function (json) {})
-	.done(function (json) {
-		count = Object.keys(json).length;
-//		console.log('count is ' + count);
-		makeSearchResults(json);
-	})
-	.fail(function (jqXHR, textStatus, errorThrown) {
- 		console.log('json fail ' + textStatus);
-		usePlaceHolderTitle();
-		if (browseArray) {
-// 			console.log(browseArray);
-			showBrowseModules(browseArray);
-		}
-	});
-	
-//	$.ajax({
-//            "async": true,
-//			"crossDomain": true,
-//			"dataType": "JSONP",
-//			"url": source,
-//			"method": "GET",
-//			"headers": {
-//				"Access-Control-Allow-Credentials": true,
-//				"Access-Control-Allow-Origin": "*",
-//				"Access-Control-Allow-Methods": "GET",
-//				"Access-Control-Allow-Headers": "Content-Type",
-//			}
-//        })
-//        .done(function (json) {
-// 			count = Object.keys(json).length;
-//	//		console.log('count is ' + count);
-//			makeSearchResults(json);
-//        })
-//        .fail(function(jqXHR, status, error) {
-// 			console.log('json fail ' + status);
-//			usePlaceHolderTitle();
-//			if (browseArray) {
-//	// 			console.log(browseArray);
-//				showBrowseModules(browseArray);
-//			}
-//        });
-	
-	
-//	const proxyurl = "https://cors-anywhere.herokuapp.com/";
-//	const url = source; // site that doesn’t send Access-Control-*
-//	fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
-//	.then(response => response.text())
-//	.then(contents => console.log(contents))
-//	.catch(() => console.log("Can’t access " + url + " response. Blocked by browser?"));
+		.done(function (json) {
+			count = Object.keys(json).length;
+			//		console.log('count is ' + count);
+			makeSearchResults(json);
+		})
+		.fail(function (jqXHR, textStatus, errorThrown) {
+			console.log('json fail ' + textStatus);
+			usePlaceHolderTitle();
+			if (browseArray) {
+				// 			console.log(browseArray);
+				showBrowseModules(browseArray);
+			}
+		});
 }
 
 
@@ -193,145 +161,159 @@ function makeSearchResults(json) {
 		$prevSearchTab,
 		$prevSearchPanel,
 		$cellParent,
+		mediaTypeId,
 		filterCategories = {
-			"type": [],
-			"product": [],
-			"region": [],
-			"system": []
-		},
-		thumbDir = 'http://primalpictures-stg.s3.amazonaws.com/primaldata/html5har2014/content/';
+			"type": {},
+			"product": {},
+		};
 
- 	console.log('***makeSearchResults');
-	console.log(json);
+	//  	console.log('***makeSearchResults');
+	//	console.log(json);
 	g.allSearches[searchId] = json;
-	console.log(g.allSearches);
+	// 	console.log(g.allSearches);
 
-	
+
 	$.each(json, function (mediaType, result) {
 
-		console.log(filterCategories.type);
-		
-		if (mediaType !== previousType) {
-			filterCategories.type.push(mediaType);
+		// 		console.log(filterCategories.type);
+
+		mediaTypeId = mediaType.split(' ').join('');
+		// 		console.log(mediaType);
+
+		if (!filterCategories.type.hasOwnProperty(mediaType)) {
+			filterCategories.type[mediaType] = [];
 			if ($searchGroupTab !== undefined) {
 				g.$resultsPanel.find('.searchGroups').append($searchGroupTab).append($searchGroupPanel);
 			}
 			$searchGroupTab = g.$TEMPLATES.children('.searchGroupTab').clone();
 			$searchGroupTab.find('.searchGroupTitle').html(mediaType);
-			$searchGroupTab.attr('id', mediaType);
+			$searchGroupTab.attr('id', mediaTypeId);
 			previousType = mediaType;
 			$searchGroupPanel = g.$TEMPLATES.children('.searchGroupPanel').clone();
-			$searchGroupPanel.attr('id', mediaType);
+			$searchGroupPanel.attr('id', mediaTypeId);
+
 		}		
-		
-		
-		$.each(result, function(result, modules) {
-//			console.log('RESULT is ' + result);
-//			console.log('MODULES is ' + modules);
-			
-			$.each(modules, function(i, module) {
-//				console.log('i is ' + i);
-//				console.log('module.mediaID is ' + module.mediaID);
-				
-				var name = module.productCode;
-				
-				var thumbPath = 'images\\homepageimages\\' + name.split('_')[0] + '_' + name.split('_')[1] + '-01.png';
-//				console.log(thumbPath);
-				
-				var thumbURLcomplete = thumbDir + name + '/thumbnails_112x112/' + module.thumbURL.split('/')[1];
+
+
+		$.each(result, function (result, modules) {
+			//			console.log('RESULT is ' + result);
+			//			console.log('MODULES is ' + modules);
+
+			$.each(modules, function (i, module) {
+				//				console.log('i is ' + i);
+				//				console.log('module.mediaID is ' + module.mediaID);
+
+				var productCode = module.productCode;
+				var productCategory = productCode.split('_')[0];
+				var productTitle = productCode.split('_')[1];
+				var productId = module.productID;
+
+				var thumbDir = 'http://primalpictures-stg.s3.amazonaws.com/primaldata/html5har2014/content/'
+				var thumbPath = 'images\\homepageimages\\' + productCategory + '_' + productTitle + '-01.png';
+				var thumbURLcomplete = thumbDir + productCode + '/thumbnails_112x112/' + module.thumbURL.split('/')[1];
 				thumbURLcomplete = thumbURLcomplete.toLowerCase();
-//				console.log(thumbURLcomplete);
+
+// 				console.log(thumbURLcomplete);
+
+				var knownAs = f.renameItem(productTitle);
+				var exploreCategory = f.renameItem(productCategory);
 				
-				
-				var otherTitle;
-				var titleName = name.split('_')[1];
-				switch(titleName) {
-					case 'Foot' :
-						otherTitle = "Leg, Ankle and Foot";
-						break;
-					default :
-						otherTitle = titleName;
+//				console.log(knownAs, exploreCategory);
+
+
+				if (!filterCategories.product.hasOwnProperty(exploreCategory)) {
+					filterCategories.product[exploreCategory] = [];
+
 				}
-				
-				var exploreCategory;
-				var productCategory = name.split('_')[0];
-				switch(productCategory) {
-					case 'HAR' :
-						exploreCategory = '3D Atlas';
-						break;
-					case 'HAP' :
-						exploreCategory = 'Anatomy & Physiology';
-						break;
-					case 'RT' :
-						exploreCategory = '3D Real-time';
-						break;
+
+				if (filterCategories.product[exploreCategory].indexOf(knownAs) < 0) {
+					filterCategories.product[exploreCategory].push(knownAs);
 				}
-				
-				if (filterCategories.product.indexOf(exploreCategory) < 0) {
-					filterCategories.product.push(exploreCategory);
-				}
-				
+
+
+
 				var $newSearchCell = g.$TEMPLATES.children('.searchCell').clone();
 
+				$newSearchCell.attr('data-id', module.mediaID);
 				$newSearchCell.find('.type h2').html(mediaType);
 				$newSearchCell.find('.titleHeading').html(result);
 				$newSearchCell.find('.exploreTable > h1').html(result);
 				$newSearchCell.find('.moduleShadow > .image img').attr('src', thumbURLcomplete);
 				$newSearchCell.find('.exploreImageDiv img').attr('src', thumbURLcomplete);
-				
+
 				if (i === 0) {
 					$cellParent = $newSearchCell;
 					$searchGroupPanel.children('.heightGauge').append($cellParent);
 				}
-				
+
 				var $optionCell = g.$TEMPLATES.children('.optionCell').clone();
-				$optionCell.addClass(productCategory).addClass(name);
+				$optionCell.addClass(productCategory).addClass(productTitle);
 				$optionCell.find('.optionCellTitle span').html(exploreCategory);
 				$optionCell.find('img').attr('src', thumbPath);
-				$optionCell.find('.title').html(otherTitle);
+				$optionCell.find('.title').html(knownAs);
 				$cellParent.find('.exploreOptions').append($optionCell);
-				
-				// prepare for filters to be added
-//				$.each(filterCategories, function(key, record){
-//					console.log(key, record);
-//					if (filterCategories[key].indexOf(result[key]) < 0) {
-//						filterCategories[key].push(result[key]);
-//					}
-//				});
-				
-			});
-		});
 
+				// prepare for filters to be added
+				//				$.each(filterCategories, function(key, record){
+				//					console.log(key, record);
+				//					if (filterCategories[key].indexOf(result[key]) < 0) {
+				//						filterCategories[key].push(result[key]);
+				//					}
+				//				});
+
+			});
+
+		});
+		console.log(filterCategories);
 	});
 
 	// add the last ones on after .each has run
 	var $searchGroups = g.$resultsPanel.find('.searchGroups');
 	$searchGroups.append($searchGroupTab);
 	$searchGroups.append($searchGroupPanel);
-	
-	addSearchToDom();	
+
+	addSearchToDom();
 
 	f.countHiddenCells($searchGroups.children('.PANEL'));
 	f.makeFilters(filterCategories, g.$resultsPanel.find('.filterScroller'));
-	
+
+}
+
+f.renameItem = function (sourceVar) {
+	switch (sourceVar) {
+		case 'HAR':
+			newNameVar = '3D Atlas';
+			break;
+		case 'HAP':
+			newNameVar = 'Anatomy & Physiology';
+			break;
+		case 'RT':
+			newNameVar = '3D Real-time';
+			break;
+		case 'Foot':
+			newNameVar = "Leg, Ankle and Foot";
+			break;
+		default:
+			newNameVar = sourceVar;
+	}
+	return newNameVar;
 }
 
 
 // ADD ANOTHER SEARCH
 
-f.anotherSearch = function(elem) {
-	
+f.anotherSearch = function (elem) {
+
 	var $elem = $(elem);
 	$elem.toggleClass('noticeMe');
 	$('.TAB.level0#BROWSE').toggleClass('noticeMe');
 	g.$searchInputBox.toggleClass('noticeMe');
-	
+
 	$elem.siblings().addClass('persistant').removeClass('alone');
-	g.$searchPANELbox.children().addClass('persistant');
-	
-	
+	g.$searchResultsPANEL.children().addClass('persistant');
+
 	g.$searchInputBox.val('');
-	
+
 	// addding another search
 	if ($elem.hasClass('noticeMe')) {
 		anotherSearch = true;
@@ -345,70 +327,70 @@ f.anotherSearch = function(elem) {
 		g.$searchInputBox.blur();
 		g.$searchClear.css('display', '');
 		$elem.siblings().last().removeClass('persistant');
-		g.$searchPANELbox.children().last().removeClass('persistant');
+		g.$searchResultsPANEL.children().last().removeClass('persistant');
 	}
-	console.log('anotherSearch is ' +  anotherSearch);
+	console.log('anotherSearch is ' + anotherSearch);
 };
 
 
 // ADD SEARCH RESULT TO DOM
 
 function addSearchToDom() {
-	
-// 	console.log('addSearchToDom, anotherSearch is ' + anotherSearch);
-	
-	g.$searchPANELbox.children().not('.persistant').remove();
-	g.$searchTABbox.children().not('.persistant').remove();
-	
+
+	// 	console.log('addSearchToDom, anotherSearch is ' + anotherSearch);
+
+	g.$searchResultsPANEL.children().not('.persistant').remove();
+	g.$searchResultsTAB.children().not('.persistant').remove();
+
 	if (!anotherSearch) {
 		tabArray.shift();
 		panelArray.shift();
+		//		g.$searchResultsTAB.children('.clicked').remove();
+		//		g.$searchResultsPANEL.children().last().remove();
 	}
-// 	console.log('HELLO ' + g.$searchTABbox.children('.TAB').not('.addSearchBtn').length, $resultsTab);
-	if (g.$searchTABbox.children('.TAB').not('.addSearchBtn').length < 1) {
-// 		console.log('alone');
-		$resultsTab.addClass('alone');
-	}
-	
+
 	$('.noticeMe').removeClass('noticeMe');
-	
+
 	var $appendToTab;
 	$appendToTab = $('.TAB.level0#SEARCH');
-	g.$resultsPanel.appendTo(g.$searchPANELbox);
-	g.$searchTABbox.children('.addSearchBtn').before($resultsTab);
-	
-	
+	g.$resultsPanel.appendTo(g.$searchResultsPANEL);
+	g.$searchResultsTAB.children('.addSearchBtn').before($resultsTab);
+
+
 
 	// SHOW THE SEARCH PANEL
 	$appendToTab.css('opacity', '1');
 	$appendToTab.click();
+
+
 	g.$prevTab = $appendToTab;
-// 	console.log('addSearchToDom, g.$prevTab is ' + g.$prevTab.attr('class'));
+	// 	console.log('addSearchToDom, g.$prevTab is ' + g.$prevTab.attr('class'));
 	$resultsTab.click();
 	f.checkForMultiRowTabs();
-	searchIndex ++;
-	
+	searchIndex++;
+
 	anotherSearch = false;
-	
+
 }
+
 
 // BROWSE: SHOW TEMP CODE MODULES
 function showBrowseModules(browseArray) {
 	var $browseContainer = $('<div class="browseContainer"></div>');
-	$.each(browseArray, function(i, code) {
-//		console.log(code);
+	$.each(browseArray, function (i, code) {
+		//		console.log(code);
 		var $browseResult = $('<div class="browseResult"></div>');
 		$browseResult.html(code);
 		$browseContainer.append($browseResult);
 	});
-//	console.log($browseContainer.html());
+	//	console.log($browseContainer.html());
 	g.$resultsPanel.find('.searchGroups').append($browseContainer);
 }
 
 
 // TEMP - PLACEHOLDER FOR WHEN THERE'S NO DATA
 function usePlaceHolderTitle() {
-// 	console.log('usePlaceHolderTitle');
+	// 	console.log('usePlaceHolderTitle');
 	g.$resultsPanel.addClass('filtersHidden withPlaceholderText').removeClass('filtersShown withCookie');
 	var placeHolderText = $("<div class='placeHolderDiv'>There is no data for '" + g.searchInput + "' yet</div>");
 	$resultsTab.children('.title').html(g.searchInput);

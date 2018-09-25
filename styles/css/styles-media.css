@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$exploreColor".
-        on line 173 of scss/styles-media.scss
+        on line 174 of scss/styles-media.scss
 
-168: 					vertical-align: top;
-169: 					border: none;
-170: 					border-left: 1px solid lightgray;
-171: 					padding-right: 20px;
-172: 					&.active {
-173: 						border-left-color: $exploreColor;
-174: 					}
-175: 					.titleHeading {
-176: 						height: auto;
-177: 						padding: 4px 12px 0px 12px;
-178: 						margin: 0;
+169: 					vertical-align: top;
+170: 					border: none;
+171: 					border-left: 1px solid lightgray;
+172: 					padding-right: 20px;
+173: 					&.active {
+174: 						border-left-color: $exploreColor;
+175: 					}
+176: 					.titleHeading {
+177: 						height: auto;
+178: 						padding: 4px 12px 0px 12px;
+179: 						margin: 0;
 
 Backtrace:
-scss/styles-media.scss:173
+scss/styles-media.scss:174
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -127,4 +127,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$exploreColor\".\A         on line 173 of scss/styles-media.scss\A \A 168: 					vertical-align: top;\A 169: 					border: none;\A 170: 					border-left: 1px solid lightgray;\A 171: 					padding-right: 20px;\A 172: 					&.active {\A 173: 						border-left-color: $exploreColor;\A 174: 					}\A 175: 					.titleHeading {\A 176: 						height: auto;\A 177: 						padding: 4px 12px 0px 12px;\A 178: 						margin: 0;"; }
+  content: "Error: Undefined variable: \"$exploreColor\".\A         on line 174 of scss/styles-media.scss\A \A 169: 					vertical-align: top;\A 170: 					border: none;\A 171: 					border-left: 1px solid lightgray;\A 172: 					padding-right: 20px;\A 173: 					&.active {\A 174: 						border-left-color: $exploreColor;\A 175: 					}\A 176: 					.titleHeading {\A 177: 						height: auto;\A 178: 						padding: 4px 12px 0px 12px;\A 179: 						margin: 0;"; }

@@ -1,0 +1,24 @@
+{
+	"type": {
+		"Illustration" : {
+			
+		},
+		"Movie" : {
+			
+		},
+		"Dissection image" : {
+			
+		},
+		"Structure" : {
+			
+		},
+		Slides : ["Clinical slides", "Anatomy slides", "Dissection slides", "Head MRI", "Trigger points"]
+			
+	},
+	"product": {
+		"HAR" : ["Head and Neck", "Spine", "Shoulder and Arm", "Forearm and Hand"],
+		"RT" : ["Head and Neck, Spine", "Shoulder and Arm", "Forearm and Hand"],
+		"HAP" : ["Body Plan and Organizaton", "Chemistry", "Cell Biology"]
+		
+	}
+};

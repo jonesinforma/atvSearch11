@@ -69,17 +69,20 @@ f.scrollerAddOrRemove = function () {
 
 f.checkSearchLayout = function () {
 	console.log('checkSearchLayout');
-	var $searches = g.$searchPANELbox.children('.PANEL.level1');
+	var $searches = g.$searchResultsPANEL.children('.PANEL.level1');
 	console.log($searches);
 	if ($searches) {
 		$searches.each(function (i, search) {
 			var $search = $(search);
-			var $searchGroupPanels = $search.find('.searchGroupPanel');
+			var $searchGroupPanels = $search.find('.searchGroupPanel').not('.filteredOut');
+			
+			console.log('checkSearchLayout ' + $searchGroupPanels.length);
 
+			
 			f.checkContractedHeight($searchGroupPanels);
 			f.countHiddenCells($searchGroupPanels);
 
-			var $exploringToCheck = $search.find('.PANEL.exploring.contracted');
+			var $exploringToCheck = $search.find('.PANEL.exploring.contracted').not('.filteredOut');
 			
 			if ($exploringToCheck.length > 0) {
 				f.checkForShuffle($exploringToCheck);
@@ -100,9 +103,9 @@ f.checkSearchLayout = function () {
 // =================================
 
 f.checkForMultiRowTabs = function () {
-	var $clickedTab = g.$searchTABbox.children('.clicked');
-	var $searchTabs = g.$searchTABbox.children();
-	var searchTABboxWidth = g.$searchTABbox.width();
+	var $clickedTab = g.$searchResultsTAB.children('.clicked');
+	var $searchTabs = g.$searchResultsTAB.children();
+	var searchResultsTABWidth = g.$searchResultsTAB.width();
 	var allTabsWidth = 0;
 
 	// check if the tabs can fit in one row...
@@ -112,12 +115,12 @@ f.checkForMultiRowTabs = function () {
 		allTabsWidth += tabWidth;
 	});
 
-// 	console.log('checkForMultiRowTabs ' + allTabsWidth, searchTABboxWidth);
+// 	console.log('checkForMultiRowTabs ' + allTabsWidth, searchResultsTABWidth);
 
 	// do stuff accordingly
-	if (allTabsWidth > searchTABboxWidth) {
+	if (allTabsWidth > searchResultsTABWidth) {
 		g.$searchPanel.addClass('multiRowTabs');
-		g.$searchTABbox.append($clickedTab);
+		g.$searchResultsTAB.append($clickedTab);
 	} else {
 		g.$searchPanel.removeClass('multiRowTabs');
 	}
@@ -131,7 +134,8 @@ f.checkForMultiRowTabs = function () {
 // ===========================
 
 f.countHiddenCells = function ($panels) {
-	  console.log('countHiddenCells ' + $panels.length);
+	$panels = $panels.not('.filteredOut');
+// 	console.log('countHiddenCells ' + $panels.length);
 
 	$panels.each(function (i, panel) {
 		var hiddenCount = 0,
@@ -195,13 +199,15 @@ f.countHiddenCells = function ($panels) {
 
 var cellLeftPos;
 f.positionExploreTable = function ($explore, $cell, animSpeed) {
-	// 	console.log('positionExploreTable');
+	console.log('positionExploreTable');
 	if ($explore) {
-		var $exploreContent = $explore.children('.exploreTable');
+		var $exploreTable = $explore.children('.exploreTable');
 		cellLeftPos = $cell.position().left;
 		var exploreLeftPos = parseInt($explore.css('left')) * -1;
 		var newLeftPos = exploreLeftPos - cellLeftPos;
-		$exploreContent.animate({
+		console.log(exploreLeftPos, cellLeftPos);
+		console.log('newLeftPos is ' + newLeftPos);
+		$exploreTable.animate({
 			'margin-left': newLeftPos
 		}, animSpeed);
 	}
@@ -211,31 +217,35 @@ f.positionExploreTable = function ($explore, $cell, animSpeed) {
 
 
 // =================================================================
-// SEARCH: ADJUST CONTRACTED PANEL HEIGHT FOR DIFFERENT RESOLUTIONS - ie, for when media queries make elements a different height
+// SEARCH: ADJUST CONTRACTED EXPLORING PANEL HEIGHT FOR DIFFERENT RESOLUTIONS 
+// ie, for when media queries make elements a different height
 // =================================================================
 
 f.checkContractedHeight = function ($searchGroupPanels) {
-	// 	console.log('checkContractedHeight');
+	console.log('checkContractedHeight');
+	console.log('* ' + $searchGroupPanels.length);
+	$searchGroupPanels = $searchGroupPanels.filter('.contracted.exploring');
+	console.log('$ ' + $searchGroupPanels.length);
+	$searchGroupPanels = $searchGroupPanels.not('.filteredOut');
+	console.log('£ ' + $searchGroupPanels.length);
 	$searchGroupPanels.each(function (i, panel) {
 		var $panel = $(panel);
-		if ($panel.hasClass('contracted')) {
-			var newCutOffHeight;
-//			var $passiveCell = $panel.find('.searchCell').not('.clicked').eq(0);
-			var passiveCellHeight = $panel.find('.searchCell').eq(0).find('.moduleShadow').outerHeight(true);
-			if ($panel.hasClass('exploring')) {
-				var $cellToCheck = $panel.find('.searchCell.clicked');
-				var $explore = $cellToCheck.find('.exploreContent');
-				console.log($cellToCheck.position().top, passiveCellHeight, $explore.outerHeight(true));
-				newCutOffHeight = $cellToCheck.position().top + passiveCellHeight + $explore.outerHeight(true);
-			} else {
-				newCutOffHeight = passiveCellHeight;
-			}
-			$panel.animate({
-				'height': newCutOffHeight
-			}, 500, function () {
-				f.countHiddenCells($panel);
-			});
+		var newCutOffHeight;
+		var passiveCellHeight = $panel.find('.searchCell').eq(0).find('.moduleShadow').outerHeight(true);
+		if ($panel.hasClass('exploring')) {
+			var $cellToCheck = $panel.find('.searchCell.clicked');
+			var $explore = $cellToCheck.find('.exploreContent');
+			console.log($cellToCheck.position().top, passiveCellHeight, $explore.outerHeight(true));
+			newCutOffHeight = $cellToCheck.position().top + passiveCellHeight + $explore.outerHeight(true);
+		} else {
+			newCutOffHeight = passiveCellHeight;
 		}
+		$panel.animate({
+			'height': newCutOffHeight
+		}, 500, function () {
+			f.countHiddenCells($panel);
+		});
+		console.log('newCutOffHeight is ' + newCutOffHeight);
 	});
 };
 
@@ -249,7 +259,7 @@ f.checkContractedHeight = function ($searchGroupPanels) {
 
 f.checkForShuffle = function ($panel) {
 
-	console.log('checkForShuffle ' + $panel.attr('class') + ' ' + cellClickedPosY);
+	console.log('checkForShuffle / ' + $panel.attr('id') + ' / ' + cellClickedPosY);
 
 	var lastCellPosY,
 		$cellToCheck = $panel.find('.searchCell.clicked'),
@@ -263,17 +273,17 @@ f.checkForShuffle = function ($panel) {
 	}
 
 	// yes shuffle
-
-	console.log('has SHUFFLED');
+	
 	hasShuffled = true;
 	cellClickedPosY = $cellToCheck.position().top;
 	var $tab = $panel.prev('.TAB');
 
 	// calculate new height and animate to it
 
-	var passiveCellHeight = $panel.find('.searchCell').not('.active').eq(0).outerHeight();
+	var passiveCellHeight = $cellToCheck.find('.moduleShadow').outerHeight(true);
 	var $explore = $cellToCheck.find('.exploreContent');
 	var newCutOffHeight = $cellToCheck.position().top + passiveCellHeight + $explore.outerHeight(true);
+	console.log('has SHUFFLED, newCutOffHeight is ' + newCutOffHeight);
 	$panel.animate({
 		'height': newCutOffHeight
 	}, 0, function () {
