@@ -1833,13 +1833,55 @@ input[type="submit"] {
 
 #INDEX {
 	.PANEL {
-		padding-top: 0;
+		    padding: 20px 20px 20px 5px;
 		h2 {
 			display: block;
 			font-size: 100px;
 			font-weight: 200;
 			color: #cfa06d;
 			margin-top: 0;
+		}
+		.indexItem {
+			    font-size: 16px;
+				display: flex;
+				align-items: center;
+				font-weight: 600;
+				line-height: 1.1em;
+				cursor: pointer;
+			div {
+				display: inline-block;
+				position: relative;
+			}
+			.title {
+// 				color: #3f3a4f;
+			}
+			.icon {
+				width: 40px;
+				height: 40px;
+				margin-right: 2px;
+				flex: 0 0 auto;
+				cursor: pointer;
+				&.media {
+					background-position: 50% 50%;
+					background-repeat: no-repeat;
+					&.slide {
+						background-image: url(../../images/SLIDE.svg);
+					}
+					&.text {
+						background-image: url(../../images/TEXT.svg);
+					}
+				}
+				&.audio {
+					background-position: 50% 50%;
+					background-repeat: no-repeat;
+					background-image: url(../../images/AUDIO3.svg);
+					position: relative;
+					width: 38px;
+					margin-right: 26px;
+					top: 1px;
+					cursor: pointer;
+				}
+			}
 		}
 	}
 }

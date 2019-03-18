@@ -1,0 +1,21 @@
+<svg width="30" height="30" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>SLIDE</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-364 40)" figma:type="canvas">
+<mask id="mask0_alpha" mask-type="alpha">
+<path d="M 364 -40L 394 -40L 394 -10L 364 -10L 364 -40Z" fill="#FFFFFF"/>
+</mask>
+<g id="SLIDE" style="mix-blend-mode:normal;" mask="url(#mask0_alpha)" figma:type="frame">
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(370 -37)" fill="#6E7A89" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Subtract" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(369 -31)" fill="#6E7A89" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 6.14 5C 6.29507 3.25934 7.79415 2 9.5 2C 11.2058 2 12.6741 3.25934 12.8292 5L 18.5 5L 19 0L 0 0L 0.5 5L 6.14 5Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 2 18L 0 0L 21 0L 19 18L 2 18ZM 3 14.5714L 3 17L 18 17L 18 14.5714C 18 12.8308 16.1669 11 14.5 11L 6.5 11C 4.79376 11 3 12.8308 3 14.5714ZM 10.5 10C 12.5711 10 14.25 8.32107 14.25 6.25C 14.25 4.17893 12.5711 2.5 10.5 2.5C 8.42892 2.5 6.75 4.17893 6.75 6.25C 6.75 8.32107 8.42892 10 10.5 10Z"/>
+</defs>
+</svg>

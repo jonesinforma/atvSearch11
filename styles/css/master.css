@@ -1389,13 +1389,48 @@ input[type="submit"] {
     cursor: pointer; }
 
 #INDEX .PANEL {
-  padding-top: 0; }
+  padding: 20px 20px 20px 5px; }
   #INDEX .PANEL h2 {
     display: block;
     font-size: 100px;
     font-weight: 200;
     color: #cfa06d;
     margin-top: 0; }
+  #INDEX .PANEL .indexItem {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    line-height: 1.1em;
+    cursor: pointer;
+    border-bottom: 1px solid #e3e0e0;
+    }
+    #INDEX .PANEL .indexItem div {
+      /* display: inline-block; */
+      /* position: relative; */
+      }
+    #INDEX .PANEL .indexItem .icon {
+      width: 40px;
+      height: 40px;
+      margin-right: 2px;
+      flex: 0 0 auto;
+      cursor: pointer; }
+      #INDEX .PANEL .indexItem .icon.media {
+        background-position: 50% 50%;
+        background-repeat: no-repeat; }
+        #INDEX .PANEL .indexItem .icon.media.slide {
+          background-image: url(../../images/SLIDE.svg); }
+        #INDEX .PANEL .indexItem .icon.media.text {
+          background-image: url(../../images/TEXT.svg); }
+      #INDEX .PANEL .indexItem .icon.audio {
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-image: url(../../images/AUDIO3.svg);
+        position: relative;
+        width: 38px;
+        margin-right: 26px;
+        top: 1px;
+        cursor: pointer; }
 
 .COOKIE {
   position: relative;
